@@ -21,4 +21,10 @@ Using hourly ERA5 reanalysis for India from 1980–2024, we compare the contiguo
 - In the hottest decile of hours, temperature and WBGT can lose essentially all rank association.
 - The result suggests that choosing a heat-stress metric can also amount to choosing which part of the season is treated as most important for policy.
 
+## Metric choice as a normative choice
+
+Different heat metrics encode different physical and physiological emphases: temperature, humidity, radiation, wind, or combinations of them. A warning calendar therefore does not simply *measure* a pre-existing hottest season; it operationalises a definition of heat stress and thereby determines which exposures receive policy attention.
+
+This is one example of the modelling approach I want to develop more broadly: identify where technical definitions carry normative consequences, then quantify how much those choices change the conclusion.
+
 Figures, code, and manuscript links will be added as the paper is finalized.
