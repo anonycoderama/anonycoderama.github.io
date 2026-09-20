@@ -1,0 +1,24 @@
+---
+title: "Metric Dependence in Seasonal Heat-Stress Timing"
+description: "Heat metrics can move together hour-to-hour yet identify different periods as the hottest part of the year."
+status: "Manuscript in preparation"
+year: 2026
+---
+
+## Research question
+
+When heat-action planning targets the hottest part of the year, do commonly used heat-stress metrics agree on **when** that period occurs?
+
+## Approach
+
+Using hourly ERA5 reanalysis for India from 1980–2024, we compare the contiguous 90-day period maximizing four metrics: 2 m air temperature, Wet-Bulb Globe Temperature (WBGT), Universal Thermal Climate Index (UTCI), and Extended Heat Index (EHI).
+
+## Headline results
+
+- The metrics are strongly correlated hour-to-hour, with Spearman correlations around 0.84–0.97.
+- They nevertheless peak in sequence: temperature first, followed by UTCI, EHI, and WBGT.
+- Over the Indo-Gangetic Plain, the median difference between temperature- and WBGT-defined heat windows is about seven weeks.
+- In the hottest decile of hours, temperature and WBGT can lose essentially all rank association.
+- The result suggests that choosing a heat-stress metric can also amount to choosing which part of the season is treated as most important for policy.
+
+Figures, code, and manuscript links will be added as the paper is finalized.
