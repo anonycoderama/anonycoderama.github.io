@@ -1,0 +1,12 @@
+---
+title: "About"
+toc: false
+---
+
+I am a quantitative researcher interested in climate, heat stress, environmental data science, and measurement. I completed the Integrated BS–MS programme at IISER Pune, with research spanning high-resolution climate reanalysis, nonlinear heat-stress metrics, statistical trend analysis, network methods, and agent-based modelling.
+
+My recent work asks a recurring question: **how much do the conclusions of environmental analysis depend on the way we define, aggregate, and operationalise the quantities we measure?**
+
+For research correspondence: [vatsal.maurya13@gmail.com](mailto:vatsal.maurya13@gmail.com).
+
+[GitHub](https://github.com/anonycoderama) · [LinkedIn](https://www.linkedin.com/in/vatsal-maurya-499279229/)
