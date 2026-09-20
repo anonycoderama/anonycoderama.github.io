@@ -1,0 +1,33 @@
+---
+title: "Mind the (Jensen) Gap: Climate and Health using Gridded Data"
+description: "How nonlinear aggregation and thresholding can systematically change measured heat risk."
+status: "Under peer review"
+venue: "Ecological Economics"
+year: 2026
+---
+
+**Vatsal Maurya, Joy M. Monteiro, Anish Sugathan, Deepak Malghan**
+
+**Status:** Under peer review at *Ecological Economics*.
+
+## Overview
+
+High-resolution climate-health analyses often aggregate meteorological inputs, composite heat metrics, or threshold exceedances across space and time. Because these operations are nonlinear, changing the order of aggregation and transformation can change the answer.
+
+The project uses Jensen's inequality as a framework for quantifying these discrepancies in the Universal Thermal Climate Index (UTCI) and associated heat-stress exceedance calculations.
+
+## Key results
+
+- Jensen gaps are systematic rather than random.
+- Their magnitude and direction depend on the heat-stress threshold being used.
+- The biases are spatially clustered.
+- Bias introduced during heat-metric construction and bias introduced during threshold exceedance do not combine additively.
+- At high thresholds, district averaging can report no exceedance even when individual grid cells within the district experience heat-stress exceedances.
+
+## Why it matters
+
+Administrative heat planning operates at aggregated scales, while heat exposure occurs locally. The project shows why the scale and order at which environmental data are processed can affect policy-facing conclusions.
+
+## Resources
+
+A working-paper PDF and code repository will be linked here when the public versions are finalized.
