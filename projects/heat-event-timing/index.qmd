@@ -1,0 +1,22 @@
+---
+title: "Changing Temporal Organisation of Heat Events Across India"
+description: "Onset, duration, persistence, and recovery periods in hourly UTCI over 1980–2024."
+status: "Thesis-derived manuscript in preparation"
+year: 2026
+---
+
+## Research question
+
+Is dangerous heat only becoming more intense, or is climate change also reorganising **when heat occurs, how long events persist, and how much recovery time separates them?**
+
+## Approach
+
+Using hourly UTCI over India from 1980–2024, the analysis tracks first and last annual exceedances, hot-season duration, heat-event frequency and length, nighttime exposure, and breaks between events.
+
+## Current findings
+
+Large parts of India show evidence of earlier starts, later ends, longer events, or shorter recovery periods, but the patterns are strongly spatially heterogeneous. North-East India, the eastern coast, and the Indo-Gangetic Plain recur across multiple indicators and thresholds.
+
+A related part of the work examines changing meteorological signatures of heat-stress exceedance using gridpoint-level logistic regression models.
+
+Figures and a manuscript-level abstract will be added after the thesis results are distilled into the final paper structure.
