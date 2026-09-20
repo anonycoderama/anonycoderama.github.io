@@ -11,7 +11,7 @@ toc: false
 # Vatsal Maurya
 
 <div class="hero-deck">
-I work on quantitative approaches to climate risk. My current research focuses on heat stress, climate-health measurement, and high-resolution environmental data; I am building toward systems models that connect physical climate risk with adaptation, mitigation, interventions, and policy decisions.
+I work on quantitative approaches to climate risk. My current research focuses on heat stress, climate-health measurement, and high-resolution environmental data; I am building toward systems models for climate adaptation and mitigation planning, with an emphasis on making the normative choices inside quantitative frameworks explicit.
 </div>
 
 <div class="hero-links">
@@ -33,7 +33,7 @@ I work on quantitative approaches to climate risk. My current research focuses o
 
 How definitions, aggregation, spatial scale, and temporal scale change what we infer about heat exposure and climate risk.
 
-**Examples:** Jensen gaps, metric-dependent heat-season timing, changing heat-event structure.
+**Examples:** Jensen gaps, metric-dependent heat-season timing, heat-event structure, physiological heat strain.
 :::
 
 ::: {.theme-card}
@@ -41,9 +41,9 @@ How definitions, aggregation, spatial scale, and temporal scale change what we i
 
 ### Systems & quantitative modelling
 
-I am interested in representing interacting components, feedbacks, heterogeneity, and vulnerability using statistical, network, and agent-based approaches.
+I am interested in representing interacting components, feedbacks, heterogeneity, infrastructure, and vulnerability using statistical, network, agent-based, and simulation approaches.
 
-**Earlier work:** road-network criticality and agent-based models of inequality and mobility.
+[Earlier modelling projects →](/research/#systems-and-quantitative-modelling)
 :::
 
 ::: {.theme-card}
@@ -51,8 +51,14 @@ I am interested in representing interacting components, feedbacks, heterogeneity
 
 ### Adaptation & mitigation planning
 
-Quantitative models that connect climate hazards and exposure to interventions, constraints, trade-offs, and policy choices—with the goal of supporting climate adaptation and mitigation decisions.
+Quantitative models that connect climate hazards and exposure to interventions, constraints, trade-offs, and policy choices—with the goal of supporting adaptation and mitigation decisions.
 :::
+:::
+
+::: {.approach-callout}
+### Modelling approach · normatively grounded quantitative modelling
+
+I do not treat metric definitions, thresholds, aggregation scales, objective functions, or the populations represented by a model as purely technical defaults. These choices can encode normative and political judgments about **whose risk is measured, which harms count, and which trade-offs are made visible**. My aim is to make those choices explicit, examine their consequences quantitatively, and carry that reflexive approach into systems models for climate adaptation and mitigation.
 :::
 
 ## Selected findings
@@ -94,3 +100,4 @@ I examine whether heat seasons are beginning earlier, ending later, lasting long
 - [**Mind the (Jensen) Gap**](/projects/jensen-gap/) — under peer review at *Ecological Economics*.
 - [**Metric dependence in seasonal heat-stress timing**](/projects/wbgt-utci/) — manuscript in preparation.
 - [**Changing temporal organisation of heat events across India**](/projects/heat-event-timing/) — thesis-derived research.
+- [**Heat-wave criteria and uncompensable heat strain**](/projects/partitional-calorimetry/) — ongoing collaborative work.
