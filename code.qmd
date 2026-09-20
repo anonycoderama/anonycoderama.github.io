@@ -3,8 +3,10 @@ title: "Code"
 toc: false
 ---
 
+I use code as part of the research workflow: constructing large environmental datasets, computing heat-stress metrics, running spatial and statistical analyses, and experimenting with network and agent-based models.
+
 Public research repositories will be linked here as they are cleaned, documented, and made reusable.
 
 Current GitHub profile: [github.com/anonycoderama](https://github.com/anonycoderama)
 
-Each research page will also link directly to its corresponding repository when available, so code remains attached to the scientific project it supports.
+Where possible, each research page will link directly to its corresponding repository so that code remains attached to the scientific question, assumptions, and results it supports.
