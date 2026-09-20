@@ -5,8 +5,22 @@ toc: false
 
 I use code as part of the research workflow: constructing large environmental datasets, computing heat-stress metrics, running spatial and statistical analyses, and experimenting with network and agent-based models.
 
-Public research repositories will be linked here as they are cleaned, documented, and made reusable.
+## Public repositories
+
+### [Fallback-Criticality](https://github.com/anonycoderama/Fallback-Criticality)
+
+Research code from the road-network criticality project. The repository contains GIS/network preprocessing, shortest-path access calculations, KD-tree matching of settlements and hospitals, edge-removal simulations, and population-weighted road criticality calculations.
+
+[Project page →](/projects/road-network-criticality/)
+
+### [Schelling-KWEMs-frankensteins](https://github.com/anonycoderama/Schelling-KWEMs-frankensteins)
+
+Exploratory notebooks combining Schelling-style spatial models with kinetic wealth-exchange dynamics, including experiments with inequality and mobility measures.
+
+[Project page →](/projects/agent-based-inequality/)
+
+## Research-code policy
+
+Some current climate-analysis repositories are not yet public because they are being cleaned, documented, or remain part of manuscripts in preparation. Where possible, each research page will link directly to its corresponding repository once the public version is ready, so that code remains attached to the scientific question, assumptions, and results it supports.
 
 Current GitHub profile: [github.com/anonycoderama](https://github.com/anonycoderama)
-
-Where possible, each research page will link directly to its corresponding repository so that code remains attached to the scientific question, assumptions, and results it supports.
