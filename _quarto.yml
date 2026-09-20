@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - "assets/**"
+
+website:
+  title: "Vatsal Maurya"
+  site-url: "https://anonycoderama.github.io"
+  description: "Research in climate, heat stress, environmental data science, and measurement."
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research/index.qmd
+        text: Research
+      - href: papers/index.qmd
+        text: Papers
+      - href: code.qmd
+        text: Code
+      - href: cv.qmd
+        text: CV
+      - href: about.qmd
+        text: About
+    right:
+      - icon: github
+        href: https://github.com/anonycoderama
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/vatsal-maurya-499279229/
+        aria-label: LinkedIn
+      - icon: envelope
+        href: mailto:vatsal.maurya13@gmail.com
+        aria-label: Email
+  search: true
+  page-footer:
+    left: "© Vatsal Maurya"
+    right: "Built with Quarto · Hosted on GitHub Pages"
+  open-graph: true
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    toc: true
+    smooth-scroll: true
+    link-external-newwindow: true
+
+execute:
+  freeze: auto
