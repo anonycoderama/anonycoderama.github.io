@@ -1,0 +1,53 @@
+---
+title: "Agent-Based Models of Inequality, Segregation, and Mobility"
+description: "Exploratory models combining Schelling-style spatial dynamics with kinetic wealth exchange."
+status: "Completed exploratory research"
+year: 2022
+---
+
+**Context:** ETC Lab, Jawaharlal Nehru University  
+**Advisor:** Anirban Chakraborti
+
+## Question
+
+How can simple local rules for residential sorting and wealth exchange generate system-level patterns in segregation, inequality, and mobility?
+
+The project began with a Schelling-style model on a lattice and then experimented with combining spatial relocation dynamics with kinetic wealth-exchange models.
+
+## Representative model output
+
+<div class="figure-pair">
+<figure>
+<img src="/assets/figures/abm-schelling-initial.png" alt="Initial spatial configuration of two agent types in a Schelling-style model">
+<figcaption>Initial random configuration from the public notebook.</figcaption>
+</figure>
+<figure>
+<img src="/assets/figures/abm-schelling-final.png" alt="Later spatial configuration after agents relocate in a Schelling-style model">
+<figcaption>Configuration after relocation dynamics. The figure is illustrative of the model mechanics, not a publication result.</figcaption>
+</figure>
+</div>
+
+## Model components
+
+The public notebooks include:
+
+- a two-type Schelling-style model with local neighbourhood tolerance and relocation;
+- continuous wealth attached to agents;
+- kinetic wealth exchange between neighbouring agents;
+- a Metropolis-style spatial exchange rule controlled by a temperature-like parameter;
+- tracking of the **Gini coefficient** as an inequality measure;
+- an exploratory mobility measure based on agents' average absolute wealth changes through exchange.
+
+The aim was not to produce a calibrated economic model, but to experiment with how **heterogeneity, local interaction rules, and feedbacks can produce emergent aggregate behaviour**.
+
+## What I took from the project
+
+This was my first sustained exposure to agent-based modelling as a way of moving from individual rules to system-level outcomes. It also highlighted a point that remains important in my current work: model outputs depend strongly on what behaviours, constraints, preferences, and welfare concepts are encoded into the agents and update rules.
+
+That is one reason I am interested in **normatively grounded systems modelling** rather than treating model structure as value-neutral.
+
+## Code
+
+[**Public repository: Schelling-KWEMs-frankensteins**](https://github.com/anonycoderama/Schelling-KWEMs-frankensteins)
+
+The repository is an exploratory research archive rather than a polished software package; I retain it publicly because it documents the development of these modelling ideas.
