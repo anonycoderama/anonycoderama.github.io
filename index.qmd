@@ -6,12 +6,12 @@ toc: false
 ---
 
 ::: {.hero}
-<div class="hero-kicker">Climate · Systems Modelling · Environmental Data Science</div>
+<div class="hero-kicker">Climate Risk · Systems Modelling · Quantitative Policy</div>
 
 # Vatsal Maurya
 
 <div class="hero-deck">
-I study how measurement, aggregation, and high-resolution environmental data shape what we infer about climate risk. My current work focuses on heat stress and climate-health measurement, while my broader research direction is toward systems and quantitative modelling for climate adaptation, mitigation, and policy planning.
+I work on quantitative approaches to climate risk. My current research focuses on heat stress, climate-health measurement, and high-resolution environmental data; I am building toward systems models that connect physical climate risk with adaptation, mitigation, interventions, and policy decisions.
 </div>
 
 <div class="hero-links">
@@ -19,8 +19,40 @@ I study how measurement, aggregation, and high-resolution environmental data sha
 <a href="/papers/">Papers</a>
 <a href="/cv.html">CV</a>
 <a href="https://github.com/anonycoderama">GitHub</a>
-<a href="mailto:vatsal.maurya13@gmail.com">Email</a>
+<a href="mailto:vatsal.maurya@alumni.iiserpune.ac.in">Email</a>
 </div>
+:::
+
+## Research directions
+
+::: {.theme-grid}
+::: {.theme-card}
+<div class="theme-label">Current research</div>
+
+### Climate risk measurement
+
+How definitions, aggregation, spatial scale, and temporal scale change what we infer about heat exposure and climate risk.
+
+**Examples:** Jensen gaps, metric-dependent heat-season timing, changing heat-event structure.
+:::
+
+::: {.theme-card}
+<div class="theme-label">Methods</div>
+
+### Systems & quantitative modelling
+
+I am interested in representing interacting components, feedbacks, heterogeneity, and vulnerability using statistical, network, and agent-based approaches.
+
+**Earlier work:** road-network criticality and agent-based models of inequality and mobility.
+:::
+
+::: {.theme-card}
+<div class="theme-label">Direction I am building toward</div>
+
+### Adaptation & mitigation planning
+
+Quantitative models that connect climate hazards and exposure to interventions, constraints, trade-offs, and policy choices—with the goal of supporting climate adaptation and mitigation decisions.
+:::
 :::
 
 ## Selected findings
