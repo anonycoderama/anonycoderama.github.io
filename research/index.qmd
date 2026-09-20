@@ -6,31 +6,45 @@ toc: false
 
 My research trajectory connects **climate risk measurement** with **systems and quantitative modelling**. Much of my current work asks how definitions, aggregation choices, and spatial or temporal resolution affect the climate risks that researchers and policymakers observe. I am increasingly interested in moving from measuring risk to modelling the systems in which adaptation and mitigation decisions are made.
 
+::: {.approach-callout}
+## My approach to quantitative modelling
+
+I am interested in **normatively grounded quantitative modelling**: modelling that is technically rigorous while remaining explicit about the value-laden choices built into quantitative frameworks.
+
+A model must decide what to measure, what threshold counts as harmful, which spatial or temporal scale is relevant, whose outcomes enter an objective function, and which trade-offs are treated as acceptable. Those are often also normative or political choices. My Jensen-gap work and the WBGT–UTCI timing project are examples: apparently technical choices about aggregation or heat metrics can change the risk that becomes visible to policy.
+
+I want to carry this reflexive approach into systems models for climate adaptation and mitigation planning.
+:::
+
 ## Research themes
 
 ### 1. Climate risk measurement
 
-Before a model can support a decision, the underlying risk has to be defined and measured carefully. My current climate work examines how nonlinear heat metrics, aggregation, thresholds, and temporal definitions change estimates of heat exposure and risk.
+Before a model can support a decision, the underlying risk has to be defined and measured carefully. My current climate work examines how nonlinear heat metrics, aggregation, thresholds, physiological assumptions, and temporal definitions change estimates of heat exposure and risk.
 
 This theme includes:
 
 - [**Mind the (Jensen) Gap**](/projects/jensen-gap/) — how nonlinear aggregation and thresholding can systematically change measured heat risk. **Under peer review at _Ecological Economics_.**
 - [**Metric dependence in seasonal heat-stress timing**](/projects/wbgt-utci/) — why strongly correlated heat metrics can identify different periods as the hottest part of the year.
 - [**Changing temporal organisation of heat events across India**](/projects/heat-event-timing/) — onset, duration, persistence, and recovery periods in hourly UTCI over 1980–2024.
+- [**Heat-wave declaration criteria through uncompensable heat strain**](/projects/partitional-calorimetry/) — an ongoing comparison of temperature-based heat-wave criteria with physiologically uncompensable heat exposure.
 
 ### 2. Systems and quantitative modelling
 
-I am interested in models that represent interactions among components rather than treating climate risk as an isolated scalar quantity. My earlier projects in **network vulnerability** and **agent-based economic modelling** introduced me to questions of criticality, heterogeneity, feedback, and emergent system behaviour.
+I am interested in models that represent interactions among components rather than treating climate risk as an isolated scalar quantity. My earlier projects introduced me to questions of criticality, heterogeneity, feedback, emergent behaviour, and system vulnerability.
+
+- [**Road-network criticality and access to healthcare**](/projects/road-network-criticality/) — graph and simulation methods for identifying road segments whose failure most disrupts access from settlements to hospitals.
+- [**Agent-based models of inequality, segregation, and mobility**](/projects/agent-based-inequality/) — exploratory models combining Schelling-style spatial dynamics with kinetic wealth exchange.
 
 Methods I want to continue developing include network models, agent-based models, statistical and probabilistic models, optimisation, simulation, and other tools for analysing complex socio-environmental systems.
 
 ### 3. Climate adaptation and mitigation planning
 
-This is the direction I am building toward. I want to develop quantitative models that connect **hazards, exposure, vulnerability, interventions, resources, and policy choices**.
+This is the direction I am building toward. I want to develop quantitative models that connect **hazards, exposure, vulnerability, infrastructure, interventions, resources, behaviour, and policy choices**.
 
 Questions that interest me include how adaptation options interact across sectors, how limited resources should be allocated under uncertainty, how infrastructure and behavioural responses alter risk, and how mitigation or adaptation strategies create trade-offs across populations, locations, and time horizons.
 
-The goal is not only to estimate climate risk, but to build models that help reason about **what interventions are available, how they interact, and under what conditions they are effective**.
+The goal is not only to estimate climate risk, but to build models that help reason about **what interventions are available, how they interact, who benefits or bears costs, and under what conditions they are effective**.
 
 ## Current and recent projects
 
@@ -49,6 +63,19 @@ Why heat metrics that track one another closely hour-to-hour can select substant
 
 Onset, duration, persistence, and recovery periods in hourly UTCI over 1980–2024.
 
+### [Heat-wave declaration criteria through uncompensable heat strain](/projects/partitional-calorimetry/)
+**Ongoing collaborative project**
+
+Using a partitional-calorimetry model and HadISD station records to ask whether temperature-based heat-wave declarations identify periods of physiologically uncompensable heat.
+
 ## Earlier quantitative modelling
 
-I have also worked on graph-theoretic analysis of road networks to identify critical and vulnerable road segments, and on agent-based economic models exploring the relationship between inequality and mobility. Dedicated project pages and cleaned repositories will be added as this site develops.
+### [Road-network criticality and access to healthcare](/projects/road-network-criticality/)
+**IIASA project · 2024–2025**
+
+Network and simulation methods for infrastructure vulnerability and access.
+
+### [Agent-based models of inequality, segregation, and mobility](/projects/agent-based-inequality/)
+**ETC Lab, JNU · 2022**
+
+Exploratory agent-based modelling of spatial sorting, wealth exchange, inequality, and mobility.
