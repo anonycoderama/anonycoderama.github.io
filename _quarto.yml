@@ -7,7 +7,7 @@ project:
 website:
   title: "Vatsal Maurya"
   site-url: "https://anonycoderama.github.io"
-  description: "Research in climate, heat stress, environmental data science, and measurement."
+  description: "Research in climate risk, systems modelling, environmental data science, and quantitative climate adaptation and mitigation planning."
   navbar:
     pinned: true
     left:
@@ -31,7 +31,7 @@ website:
         href: https://www.linkedin.com/in/vatsal-maurya-499279229/
         aria-label: LinkedIn
       - icon: envelope
-        href: mailto:vatsal.maurya13@gmail.com
+        href: mailto:vatsal.maurya@alumni.iiserpune.ac.in
         aria-label: Email
   search: true
   page-footer:
