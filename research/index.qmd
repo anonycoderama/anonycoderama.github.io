@@ -1,0 +1,28 @@
+---
+title: "Research"
+page-layout: full
+toc: false
+---
+
+My work sits at the intersection of **climate science, heat stress, environmental data science, and measurement**. A recurring question is how definitions, aggregation choices, and spatial or temporal resolution affect the scientific and policy conclusions drawn from environmental data.
+
+## Current and recent projects
+
+### [Mind the (Jensen) Gap](/projects/jensen-gap/)
+**Under peer review · Ecological Economics**
+
+How nonlinear aggregation and thresholding can systematically change measured heat risk.
+
+### [Metric dependence in seasonal heat-stress timing](/projects/wbgt-utci/)
+**Manuscript in preparation**
+
+Why heat metrics that track one another closely hour-to-hour can select substantially different periods as the hottest part of the year.
+
+### [Changing temporal organisation of heat events across India](/projects/heat-event-timing/)
+**Thesis-derived manuscript in preparation**
+
+Onset, duration, persistence, and recovery periods in hourly UTCI over 1980–2024.
+
+## Additional projects
+
+Pages for additional collaborative and earlier work will be added as abstracts, contribution statements, code repositories, and figures are finalized.
