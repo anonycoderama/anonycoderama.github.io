@@ -14,16 +14,31 @@ How can simple local rules for residential sorting and wealth exchange generate 
 
 The project began with a Schelling-style model on a lattice and then experimented with combining spatial relocation dynamics with kinetic wealth-exchange models.
 
-## Representative model output
+## Representative exploratory outputs
+
+<div class="figure-pair">
+<figure>
+<img src="/assets/figures/abm-gini-vs-temperature.png" alt="Exploratory scatter plot of Gini coefficient against the model temperature parameter">
+<figcaption>Exploratory output from the public notebook: mean Gini coefficient across the model's temperature-like mixing parameter.</figcaption>
+</figure>
+<figure>
+<img src="/assets/figures/abm-mobility-vs-temperature.png" alt="Exploratory scatter plot of a wealth-change mobility measure against the model temperature parameter">
+<figcaption>Exploratory output tracking an agent-level wealth-change mobility proxy across the same parameter.</figcaption>
+</figure>
+</div>
+
+These plots come directly from the project notebooks. They are **exploratory model outputs, not calibrated empirical estimates**.
+
+A simpler Schelling implementation in the repository also records the spatial configuration before and after relocation dynamics:
 
 <div class="figure-pair">
 <figure>
 <img src="/assets/figures/abm-schelling-initial.png" alt="Initial spatial configuration of two agent types in a Schelling-style model">
-<figcaption>Initial random configuration from the public notebook.</figcaption>
+<figcaption>Initial random configuration.</figcaption>
 </figure>
 <figure>
 <img src="/assets/figures/abm-schelling-final.png" alt="Later spatial configuration after agents relocate in a Schelling-style model">
-<figcaption>Configuration after relocation dynamics. The figure is illustrative of the model mechanics, not a publication result.</figcaption>
+<figcaption>Configuration after relocation dynamics.</figcaption>
 </figure>
 </div>
 
