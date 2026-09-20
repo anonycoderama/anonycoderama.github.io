@@ -7,7 +7,7 @@ project:
 website:
   title: "Vatsal Maurya"
   site-url: "https://anonycoderama.github.io"
-  description: "Research in climate risk, systems modelling, environmental data science, and quantitative climate adaptation and mitigation planning."
+  description: "Normatively grounded quantitative modelling for climate risk, systems, adaptation, and mitigation planning."
   navbar:
     pinned: true
     left:
