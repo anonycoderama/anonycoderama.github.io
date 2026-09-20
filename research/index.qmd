@@ -4,7 +4,7 @@ page-layout: full
 toc: false
 ---
 
-My work sits at the intersection of **climate science, heat stress, environmental data science, and measurement**. A recurring question is how definitions, aggregation choices, and spatial or temporal resolution affect the scientific and policy conclusions drawn from environmental data.
+My work currently sits at the intersection of **climate science, heat stress, environmental data science, and measurement**. A recurring question is how definitions, aggregation choices, and spatial or temporal resolution affect the scientific and policy conclusions drawn from environmental data. I am increasingly interested in extending this work toward **systems modelling and quantitative models for climate adaptation and mitigation planning**—especially models that connect physical climate risk, exposure, interventions, and policy choices.
 
 ## Current and recent projects
 
