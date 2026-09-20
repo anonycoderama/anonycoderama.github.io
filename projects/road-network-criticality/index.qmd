@@ -1,0 +1,45 @@
+---
+title: "Road-Network Criticality and Access to Healthcare"
+description: "Network and simulation methods for identifying road segments whose failure most disrupts access from settlements to hospitals."
+status: "Completed research project"
+year: 2024
+---
+
+**Project period:** 2024–2025  
+**Context:** IIASA project  
+**Advisors:** José Moran and Célian Colon
+
+## Question
+
+Which road segments are disproportionately important for maintaining access from settlements to hospitals?
+
+Rather than treating road importance as a purely topological centrality problem, this project explored a more functional notion of infrastructure criticality: **how much does access to healthcare worsen when a road segment fails?**
+
+## Modelling workflow
+
+<div class="method-flow">
+<div class="method-step"><strong>1 · Build the network</strong>Convert GIS road data into a NetworkX graph and clean/simplify the topology.</div>
+<div class="method-step"><strong>2 · Connect people and services</strong>Snap settlements and hospitals to nearby road nodes using spatial nearest-neighbour methods.</div>
+<div class="method-step"><strong>3 · Simulate failure</strong>Remove candidate road edges and recompute shortest-path access to hospitals.</div>
+<div class="method-step"><strong>4 · Rank criticality</strong>Weight the added travel distance by the population of affected settlements and rank roads by system-wide disruption.</div>
+</div>
+
+The public code also experiments with shortest-path betweenness and alternative-path ideas, but the edge-removal simulation is especially useful because it ties network structure to a concrete service-access consequence.
+
+## Why this matters for my current research direction
+
+This project was an early introduction to **systems thinking**: the importance of an infrastructure component depends on the network around it, the location of services, the distribution of population, and the behaviour of the system after disruption.
+
+That perspective is directly relevant to climate adaptation. Roads, power systems, cooling infrastructure, water networks, and health services all face climate stresses whose consequences propagate through interconnected systems.
+
+It also raises normative questions. A criticality score depends on what outcome is protected—total travel time, access for the largest population, access for remote settlements, equity across communities, or some other objective. The choice of objective can reorder infrastructure priorities.
+
+## Code
+
+[**Public repository: Fallback-Criticality**](https://github.com/anonycoderama/Fallback-Criticality)
+
+The repository contains road-network preprocessing, KD-tree matching of settlements/hospitals, shortest-path routines, edge-removal simulations, and population-weighted disruption calculations.
+
+## Status
+
+This is an earlier research project rather than a current manuscript. I am keeping the page because it is part of the methodological path toward systems modelling for climate adaptation and infrastructure planning.
