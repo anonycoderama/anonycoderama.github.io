@@ -1,0 +1,64 @@
+---
+title: "Vatsal Maurya"
+title-block-style: none
+page-layout: full
+toc: false
+---
+
+::: {.hero}
+<div class="hero-kicker">Climate · Heat Stress · Environmental Data Science</div>
+
+# Vatsal Maurya
+
+<div class="hero-deck">
+I study how measurement, aggregation, and high-resolution environmental data shape what we infer about climate risk. My recent work focuses on heat-stress metrics, the changing temporal structure of heat events across India, and methodological choices connecting gridded climate data to policy-relevant conclusions.
+</div>
+
+<div class="hero-links">
+<a href="/research/">Research</a>
+<a href="/papers/">Papers</a>
+<a href="/cv.html">CV</a>
+<a href="https://github.com/anonycoderama">GitHub</a>
+<a href="mailto:vatsal.maurya13@gmail.com">Email</a>
+</div>
+:::
+
+## Selected findings
+
+::: {.result-grid}
+::: {.result-card}
+<div class="result-number">≈ 7 weeks</div>
+
+### Heat metrics can agree hourly and disagree seasonally
+
+Over the Indo-Gangetic Plain, temperature- and WBGT-defined 90-day heat windows differ by about seven weeks in the median, despite strong hour-to-hour comovement.
+
+[Metric-dependent heat timing →](/projects/wbgt-utci/)
+:::
+
+::: {.result-card}
+<div class="result-number">E[f(X)] ≠ f(E[X])</div>
+
+### Aggregation can change measured heat risk
+
+Nonlinear heat metrics and threshold exceedances can acquire systematic, spatially structured biases when high-resolution climate data are averaged too early.
+
+[Mind the Jensen Gap →](/projects/jensen-gap/)
+:::
+
+::: {.result-card}
+<div class="result-number">1980–2024</div>
+
+### Heat is changing in timing, persistence, and recovery
+
+I examine whether heat seasons are beginning earlier, ending later, lasting longer, and providing shorter breaks between events across India.
+
+[Heat-event timing →](/projects/heat-event-timing/)
+:::
+:::
+
+## Featured research
+
+- [**Mind the (Jensen) Gap**](/projects/jensen-gap/) — under peer review at *Ecological Economics*.
+- [**Metric dependence in seasonal heat-stress timing**](/projects/wbgt-utci/) — manuscript in preparation.
+- [**Changing temporal organisation of heat events across India**](/projects/heat-event-timing/) — thesis-derived research.
