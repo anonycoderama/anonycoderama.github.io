@@ -1,0 +1,30 @@
+---
+title: "Papers & manuscripts"
+page-layout: full
+toc: false
+---
+
+Publication status is stated explicitly and updated in place as projects progress.
+
+## Under peer review
+
+### Mind the (Jensen) Gap: Climate and Health using Gridded Data
+
+**Vatsal Maurya, Joy M. Monteiro, Anish Sugathan, Deepak Malghan**  
+Under peer review at *Ecological Economics* · 2026
+
+[Project page](/projects/jensen-gap/)
+
+## Manuscripts in preparation
+
+### Metric Dependence in the Timing of Seasonal Heat-Stress Maxima
+
+Manuscript in preparation.
+
+[Project page](/projects/wbgt-utci/)
+
+### Changing Temporal Organisation of Heat Events Across India, 1980–2024
+
+Thesis-derived manuscript in preparation.
+
+[Project page](/projects/heat-event-timing/)
