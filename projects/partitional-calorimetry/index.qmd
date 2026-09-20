@@ -1,0 +1,41 @@
+---
+title: "Heat-Wave Criteria Through Uncompensable Heat Strain"
+description: "Testing whether temperature-based heat-wave declarations identify periods when the human body cannot dissipate metabolic heat."
+status: "Ongoing collaborative project"
+year: 2026
+---
+
+## Research question
+
+India's operational heat-wave criteria are based on air-temperature thresholds and departures from normal. This project asks a different question:
+
+> **Do declared heat-wave days correspond to the hours when a person is physiologically unable to shed metabolic heat to the environment?**
+
+## Approach
+
+The analysis uses a **partitional-calorimetry model** following Cramer & Jay (2019) to identify *uncompensable* conditions—hours in which the required heat loss exceeds what the environment and human thermoregulation can provide.
+
+<div class="method-flow">
+<div class="method-step"><strong>Meteorology</strong>Station observations from HadISD across India, Pakistan, and Bangladesh.</div>
+<div class="method-step"><strong>Physiology</strong>Partitional calorimetry estimates the pathways available for metabolic heat dissipation.</div>
+<div class="method-step"><strong>Classification</strong>Identify hours in which heat strain becomes uncompensable under the model assumptions.</div>
+<div class="method-step"><strong>Policy comparison</strong>Compare uncompensable hours on officially declared heat-wave days with days that are not declared heat waves.</div>
+</div>
+
+The intended manuscript asks whether heat-wave criteria designed around temperature alone align with physiologically meaningful health risk.
+
+## Why this is a normative modelling problem
+
+A physiological heat-risk model still requires choices about the person being represented: metabolic activity, clothing, acclimatisation assumptions, environmental exposure, and what level of strain counts as unacceptable.
+
+Likewise, an official heat-wave threshold reflects a policy choice about what kind of danger should trigger action. The project therefore fits my broader interest in making the **normative content of quantitative thresholds** explicit rather than treating them as neutral technical cut-offs.
+
+## My contribution and current status
+
+I wrote an initial Python implementation of the partitional-calorimetry model and carried out early analysis using HadISD station data. The current work is collaborative; Joy Monteiro is reproducing and verifying the analysis and code, and the manuscript-level contribution statement will be updated once that verification and division of work are finalized.
+
+Because the project is still under active development, I am not posting headline numerical results yet.
+
+## Planned output
+
+A manuscript comparing official temperature-based heat-wave declarations with physiologically uncompensable heat exposure, with the broader aim of informing heat-warning criteria that track health risk more directly.
