@@ -1,0 +1,10 @@
+---
+title: "CV"
+toc: false
+---
+
+A downloadable PDF CV will be added at a stable path after the next CV revision.
+
+## Research profile
+
+My recent research focuses on climate-health measurement, heat-stress metrics, large-scale reanalysis data, and the relationship between methodological choices and policy-facing conclusions.
