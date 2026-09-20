@@ -6,12 +6,12 @@ toc: false
 ---
 
 ::: {.hero}
-<div class="hero-kicker">Climate · Heat Stress · Environmental Data Science</div>
+<div class="hero-kicker">Climate · Systems Modelling · Environmental Data Science</div>
 
 # Vatsal Maurya
 
 <div class="hero-deck">
-I study how measurement, aggregation, and high-resolution environmental data shape what we infer about climate risk. My recent work focuses on heat-stress metrics, the changing temporal structure of heat events across India, and methodological choices connecting gridded climate data to policy-relevant conclusions.
+I study how measurement, aggregation, and high-resolution environmental data shape what we infer about climate risk. My current work focuses on heat stress and climate-health measurement, while my broader research direction is toward systems and quantitative modelling for climate adaptation, mitigation, and policy planning.
 </div>
 
 <div class="hero-links">
