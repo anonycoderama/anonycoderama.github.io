@@ -24,6 +24,12 @@ The project uses Jensen's inequality as a framework for quantifying these discre
 - Bias introduced during heat-metric construction and bias introduced during threshold exceedance do not combine additively.
 - At high thresholds, district averaging can report no exceedance even when individual grid cells within the district experience heat-stress exceedances.
 
+## The normative choice inside aggregation
+
+Aggregation is not only a computational convenience. Choosing a spatial scale, temporal scale, or exceedance threshold determines which forms of exposure remain visible after data are compressed.
+
+That makes these choices relevant to questions such as **whose exposure is represented by a district average, which vulnerable populations can disappear inside an aggregate, and what threshold a heat-action plan should treat as harmful**. The quantitative framework is therefore also a way to make the consequences of those normative choices explicit.
+
 ## Why it matters
 
 Administrative heat planning operates at aggregated scales, while heat exposure occurs locally. The project shows why the scale and order at which environmental data are processed can affect policy-facing conclusions.
