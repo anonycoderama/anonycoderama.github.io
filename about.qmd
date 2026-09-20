@@ -7,7 +7,9 @@ I am a quantitative researcher interested in **climate risk, environmental data 
 
 I completed the Integrated BS–MS programme at IISER Pune, with research spanning high-resolution climate reanalysis, nonlinear heat-stress metrics, statistical trend analysis, network methods, and agent-based modelling.
 
-My current climate research asks a recurring methodological question: **how much do the conclusions of environmental analysis depend on the way we define, aggregate, and operationalise the quantities we measure?** I am increasingly interested in carrying that perspective into systems models that connect physical hazards and exposure with interventions, resources, behaviour, infrastructure, and policy choices.
+A recurring theme in my work is that quantitative frameworks are not neutral containers for facts. **Metric definitions, thresholds, aggregation scales, model objectives, and the populations represented can encode normative and political choices.** I try to make those choices visible rather than hide them behind technical defaults. I think of this as a form of **normatively grounded quantitative modelling**.
+
+My current climate research develops that perspective through heat-stress measurement and aggregation. I am increasingly interested in carrying it into systems models that connect physical hazards and exposure with infrastructure, interventions, resources, behaviour, adaptation, mitigation, and policy choices.
 
 For research correspondence: [vatsal.maurya@alumni.iiserpune.ac.in](mailto:vatsal.maurya@alumni.iiserpune.ac.in).
 
