@@ -36,4 +36,4 @@ Administrative heat planning operates at aggregated scales, while heat exposure 
 
 ## Resources
 
-A working-paper PDF and code repository will be linked here when the public versions are finalized.
+[**Preprint: Mind the (Jensen)Gap: Climate and Health using Gridded Data**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6501406)
