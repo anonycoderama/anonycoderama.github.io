@@ -16,7 +16,7 @@ I work on quantitative approaches to climate risk. My current research focuses o
 
 <div class="hero-links">
 <a href="/research/">Research</a>
-<a href="/papers/">Papers</a>
+<a href="/papers/">Papers & manuscripts</a>
 <a href="/assets/cv/Vatsal_Maurya_CV_systems_adaptation.pdf" target="_blank">CV</a>
 <a href="https://github.com/anonycoderama">GitHub</a>
 <a href="mailto:vatsal.maurya@alumni.iiserpune.ac.in">Email</a>
