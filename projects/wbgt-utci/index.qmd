@@ -16,7 +16,7 @@ Using hourly ERA5 reanalysis for India from 1980–2024, we compare the contiguo
 ## Headline results
 
 - The metrics are strongly correlated hour-to-hour, with Spearman correlations around 0.84–0.97.
-- The 90-day average values of each metric peaks at differing times of the year with differences sometimes exceeding 100 days between yearly peaks of different indices.
+- The 90-day moving average of the metrics peak at differing times of the year; with differences sometimes exceeding 100 days between yearly peaks of different indices.
 - They nevertheless peak in sequence: temperature first, followed by UTCI, EHI, and WBGT.
 - Over the Indo-Gangetic Plain, the median difference between temperature- and WBGT-defined heat windows is about seven weeks.
 - In the hottest decile of hours, temperature and WBGT can lose essentially all rank association.
