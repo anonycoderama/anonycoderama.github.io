@@ -16,6 +16,7 @@ Using hourly ERA5 reanalysis for India from 1980–2024, we compare the contiguo
 ## Headline results
 
 - The metrics are strongly correlated hour-to-hour, with Spearman correlations around 0.84–0.97.
+- The 90-day average values of each metric peaks at differing times of the year with differences sometimes exceeding 100 days between yearly peaks of different indices.
 - They nevertheless peak in sequence: temperature first, followed by UTCI, EHI, and WBGT.
 - Over the Indo-Gangetic Plain, the median difference between temperature- and WBGT-defined heat windows is about seven weeks.
 - In the hottest decile of hours, temperature and WBGT can lose essentially all rank association.
@@ -23,7 +24,7 @@ Using hourly ERA5 reanalysis for India from 1980–2024, we compare the contiguo
 
 ## Metric choice as a normative choice
 
-Different heat metrics encode different physical and physiological emphases: temperature, humidity, radiation, wind, or combinations of them. A warning calendar therefore does not simply *measure* a pre-existing hottest season; it operationalises a definition of heat stress and thereby determines which exposures receive policy attention.
+Different heat metrics encode different physical and physiological emphases: temperature, humidity, radiation, wind, or combinations of them. A warning calendar therefore does not simply *measure* a pre-existing hottest season; it operationalises a definition of heat stress and thereby determines whose exposures receive policy attention. A political question!
 
 This is one example of the modelling approach I want to develop more broadly: identify where technical definitions carry normative consequences, then quantify how much those choices change the conclusion.
 
