@@ -101,3 +101,5 @@ I examine whether heat seasons are beginning earlier, ending later, lasting long
 - [**Metric dependence in seasonal heat-stress timing**](/projects/wbgt-utci/) — manuscript in preparation.
 - [**Changing temporal organisation of heat events across India**](/projects/heat-event-timing/) — thesis-derived research.
 - [**Heat-wave criteria and uncompensable heat strain**](/projects/partitional-calorimetry/) — ongoing collaborative work.
+
+<!-- deployment refresh 2026-10-01 -->
