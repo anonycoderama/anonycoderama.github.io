@@ -3,10 +3,42 @@ title: "CV"
 toc: false
 ---
 
-A downloadable PDF CV will be added at a stable path after the next CV revision.
+[**Download CV (PDF)**](/assets/cv/Vatsal_Maurya_CV_systems_adaptation.pdf){.btn .btn-primary target="_blank"}
+
+This is my current two-page CV, oriented toward **systems modelling for climate adaptation, climate risk, and environmental data science**.
+
+## Current engagement
+
+**Climate Data Consultant (part-time), Khushi Baby · Sep 2026–Jan 2027**
+
+Working on environmental-data methodology for the Climate Health Vulnerability Index (CHVI), including standardising environmental variables and assessing the trade-offs associated with different spatio-temporal aggregation scales.
+
+## Education
+
+**Integrated BS–MS in Science, IISER Pune · 2021–2026**  
+Applied Mathematics and Statistics · CGPA 8.8/10
+
+- BS–MS thesis: *From Grid Cells to Policy in Heat-Stress Analysis*
+- Supervisors: Joy M. Monteiro (IISER Pune) and Deepak Malghan (IIM Bangalore)
+- Institute Best MS Thesis Award (Data Science)
 
 ## Research profile
 
-My current research focuses on climate-health measurement, heat-stress metrics, large-scale reanalysis data, and the relationship between methodological choices and policy-facing conclusions. My broader research direction is toward systems and quantitative modelling for climate adaptation and mitigation planning.
+My current work spans climate-risk measurement, heat stress, high-resolution reanalysis data, spatio-temporal modelling, and the methodological choices that connect quantitative analysis to policy. My broader direction is toward **normatively grounded systems and quantitative modelling for climate adaptation and mitigation planning**.
+
+Current and recent work includes:
+
+- [**Mind the (Jensen) Gap**](/projects/jensen-gap/) — nonlinear aggregation, threshold exceedances, and climate-health measurement.
+- [**Heat-stress metrics and the timing of peak season in India**](/projects/wbgt-utci/) — metric-dependent timing of seasonal heat risk.
+- [**Heat-wave criteria through uncompensable heat strain**](/projects/partitional-calorimetry/) — physiological heat-risk modelling.
+- [**Changing temporal organisation of heat events**](/projects/heat-event-timing/) — onset, duration, persistence, and recovery.
+- [**Road-network criticality and access to healthcare**](/projects/road-network-criticality/) — graph and simulation methods for infrastructure vulnerability.
+- [**Agent-based models of inequality, segregation, and mobility**](/projects/agent-based-inequality/) — exploratory complex-systems modelling.
+
+## Technical focus
+
+Python is my primary research language. My work uses statistical and spatial modelling, NetworkX and agent-based approaches, ERA5/ERA5-Land/HadISD data, QGIS and geospatial tooling, NetCDF/Zarr, and parallel/chunked workflows for large climate datasets.
 
 **Contact:** [vatsal.maurya@alumni.iiserpune.ac.in](mailto:vatsal.maurya@alumni.iiserpune.ac.in)
+
+[GitHub](https://github.com/anonycoderama) · [LinkedIn](https://www.linkedin.com/in/vatsal-maurya-499279229/) · [CV PDF](/assets/cv/Vatsal_Maurya_CV_systems_adaptation.pdf)
