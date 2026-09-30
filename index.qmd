@@ -1,5 +1,4 @@
 ---
-title: "Vatsal Maurya"
 title-block-style: none
 page-layout: full
 toc: false
@@ -8,7 +7,7 @@ toc: false
 ::: {.hero}
 <div class="hero-kicker">Climate Risk · Systems Modelling · Quantitative Policy</div>
 
-# Vatsal Maurya
+# Normatively grounded quantitative modelling for climate adaptation
 
 <div class="hero-deck">
 I work on quantitative approaches to climate risk. My current research focuses on heat stress, climate-health measurement, and high-resolution environmental data; I am building toward systems models for climate adaptation and mitigation planning, with an emphasis on making the normative choices inside quantitative frameworks explicit.
