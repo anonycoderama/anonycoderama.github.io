@@ -16,7 +16,7 @@ website:
       - href: research/index.qmd
         text: Research
       - href: papers/index.qmd
-        text: Papers
+        text: Papers & Manuscripts
       - href: code.qmd
         text: Code
       - href: cv.qmd
