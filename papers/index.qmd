@@ -1,5 +1,5 @@
 ---
-title: "Papers & manuscripts"
+title: "Papers & Manuscripts"
 page-layout: full
 toc: false
 ---
