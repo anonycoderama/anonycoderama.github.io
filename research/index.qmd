@@ -49,7 +49,7 @@ The goal is not only to estimate climate risk, but to build models that help rea
 ## Current and recent projects
 
 ### [Mind the (Jensen) Gap](/projects/jensen-gap/)
-**Under peer review · Ecological Economics**
+**Under review **
 
 How nonlinear aggregation and thresholding can systematically change measured heat risk.
 
