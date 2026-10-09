@@ -6,12 +6,11 @@ toc: false
 
 Publication status is stated explicitly and updated in place as projects progress.
 
-## Under peer review
+## Under review
 
 ### Mind the (Jensen) Gap: Climate and Health using Gridded Data
 
 **Vatsal Maurya, Joy M. Monteiro, Anish Sugathan, Deepak Malghan**  
-Under peer review at *Ecological Economics* · 2026
 
 [Project page](/projects/jensen-gap/)
 
