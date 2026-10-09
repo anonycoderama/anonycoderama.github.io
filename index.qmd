@@ -97,9 +97,9 @@ I examine whether heat seasons are beginning earlier, ending later, lasting long
 
 ## Featured research
 
-- [**Mind the (Jensen) Gap**](/projects/jensen-gap/) — under peer review at *Ecological Economics*.
-- [**Metric dependence in seasonal heat-stress timing**](/projects/wbgt-utci/) — manuscript in preparation.
-- [**Changing temporal organisation of heat events across India**](/projects/heat-event-timing/) — thesis-derived research.
-- [**Heat-wave criteria and uncompensable heat strain**](/projects/partitional-calorimetry/) — ongoing collaborative work.
+- [**Mind the (Jensen) Gap**](/projects/jensen-gap/) 
+- [**Metric dependence in seasonal heat-stress timing**](/projects/wbgt-utci/) 
+- [**Changing temporal organisation of heat events across India**](/projects/heat-event-timing/) 
+- [**Heat-wave criteria and uncompensable heat strain**](/projects/partitional-calorimetry/) 
 
-<!-- deployment refresh 2026-10-01 -->
+<!-- deployment refresh 2026-10-09 -->
