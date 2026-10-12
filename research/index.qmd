@@ -28,6 +28,7 @@ This theme includes:
 - [**Metric dependence in seasonal heat-stress timing**](/projects/wbgt-utci/) — why strongly correlated heat metrics can identify different periods as the hottest part of the year.
 - [**Changing temporal organisation of heat events across India**](/projects/heat-event-timing/) — onset, duration, persistence, and recovery periods in hourly UTCI over 1980–2024.
 - [**Heat-wave declaration criteria through uncompensable heat strain**](/projects/partitional-calorimetry/) — an ongoing comparison of temperature-based heat-wave criteria with physiologically uncompensable heat exposure.
+- [**Who Is an Outdoor Worker?**](/projects/outdoor-workers/) — how occupation-, industry-, and location-based definitions of outdoor work change estimates of climate-exposed labour and heat risk.
 
 ### 2. Systems and quantitative modelling
 
@@ -67,6 +68,11 @@ Onset, duration, persistence, and recovery periods in hourly UTCI over 1980–20
 **Ongoing collaborative project**
 
 Using a partitional-calorimetry model and HadISD station records to ask whether temperature-based heat-wave declarations identify periods of physiologically uncompensable heat.
+
+### [Who Is an Outdoor Worker?](/projects/outdoor-workers/)
+**Manuscript in preparation**
+
+Cross-country labour-force and climate analysis showing how alternative outdoor-worker definitions change the measured size of the exposed workforce, harmful heat dose, and downstream economic and health impacts.
 
 ## Earlier quantitative modelling
 
