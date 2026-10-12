@@ -101,5 +101,6 @@ I examine whether heat seasons are beginning earlier, ending later, lasting long
 - [**Metric dependence in seasonal heat-stress timing**](/projects/wbgt-utci/) 
 - [**Changing temporal organisation of heat events across India**](/projects/heat-event-timing/) 
 - [**Heat-wave criteria and uncompensable heat strain**](/projects/partitional-calorimetry/) 
+- [**Who Is an Outdoor Worker?**](/projects/outdoor-workers/) 
 
 <!-- deployment refresh 2026-10-09 -->
