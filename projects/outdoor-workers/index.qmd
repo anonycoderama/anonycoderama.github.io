@@ -1,0 +1,47 @@
+---
+title: "Who Is an Outdoor Worker?"
+description: "How alternative definitions of outdoor work change estimates of climate-exposed labour, heat dose, and welfare impacts across Asia."
+status: "Manuscript in preparation"
+year: 2026
+---
+
+## Overview
+
+Outdoor workers bear a disproportionate share of climate-related health and economic risks, yet **"outdoor worker" is rarely observed directly in labour-force surveys**. Researchers instead infer outdoor work using proxies based on occupation, industry, workplace location, or combinations of these.
+
+Using national labour-force surveys from eight Asian countries representing roughly 26% of the global population, this project asks how much those alternative definitions change the population identified as climate-exposed.
+
+## Abstract
+
+Outdoor workers bear the brunt of climate-related economic and health risks. However, the category "outdoor workers" is not directly enumerated but derived from proxies such as occupation and industry codes. Using national labor force surveys from eight diverse Asian countries representing about 26% of the global population, we show that widely used occupation-, industry-, and location-based outdoor-worker proxies disagree on the size of the outdoor workforce by up to **44 percentage points**.
+
+There is no consistent mapping among the six outdoor-worker measurement strategies we use. The direction and magnitude of disagreement between strategies vary by country and gender. We show that the uncertainty in weekly harmful heat-stress dose attributable to the outdoor-worker measurement strategy is of the same order as the uncertainty in work-hour allocation within the day.
+
+If the weekly dose is held constant, the different outdoor-worker measurement strategies correspond to heat thresholds **2.0 to 8.0 °C apart**. The outdoor-worker coding choice can also change estimated lost income, welfare, and attributable disability-adjusted life years by as much as **2.4-fold**, and **1.5-fold at the median**.
+
+Our analysis suggests that a standardized, direct enumeration of outdoor work is crucial to designing effective adaptation and mitigation strategies for one of the most climate-vulnerable groups.
+
+## Headline results
+
+- Outdoor-worker definitions differ by as much as **44 percentage points** in estimated workforce share.
+- Six common measurement strategies do not map consistently onto one another.
+- Disagreement varies across **countries and genders** rather than producing one systematic bias.
+- Uncertainty from the worker-definition strategy is comparable in magnitude to uncertainty from **within-day work-hour allocation**.
+- Holding heat dose fixed, alternative worker definitions can imply heat thresholds **2.0–8.0 °C apart**.
+- Estimated lost income, welfare losses, and attributable DALYs can change by up to **2.4×** depending on the coding strategy.
+
+## Why this matters
+
+Many climate-impact calculations treat the population at risk as if it were directly observed. Here, the exposure group itself is constructed through coding decisions.
+
+That makes the definition of "outdoor worker" a modelling choice with direct distributional and policy consequences: it affects **who is counted as exposed, which workers appear most vulnerable, and how large the estimated health and economic burden becomes**.
+
+The project therefore fits closely with my broader interest in **normatively grounded quantitative modelling**—making explicit the choices through which populations, risks, and harms enter quantitative climate-policy analysis.
+
+## My contribution
+
+I am the **third author** on this project. My contribution has focused on supplying and preparing the **climate-data inputs used in the heat-exposure analysis**. I am keeping the contribution statement deliberately narrow here so that the website does not imply responsibility for components of the labour-force classification or downstream welfare/health analysis that I did not lead.
+
+## Status
+
+Manuscript in preparation. Figures, author list, manuscript link, and code/data links will be added when public versions are available.
