@@ -33,3 +33,9 @@ Thesis-derived manuscript in preparation.
 Ongoing collaborative analysis / manuscript in development. Authorship and contribution statement will be updated as the analysis is finalized.
 
 [Project page](/projects/partitional-calorimetry/)
+
+### Who Is an Outdoor Worker?
+
+Cross-country labour-force and climate analysis of how occupation-, industry-, and location-based definitions of outdoor work alter estimates of exposure and climate-related impacts. I am the third author and contributed climate-data inputs used in the heat-exposure analysis.
+
+[Project page](/projects/outdoor-workers/)
