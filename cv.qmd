@@ -30,6 +30,7 @@ Current and recent work includes:
 
 - [**Mind the (Jensen) Gap**](/projects/jensen-gap/) — nonlinear aggregation, threshold exceedances, and climate-health measurement.
 - [**Heat-stress metrics and the timing of peak season in India**](/projects/wbgt-utci/) — metric-dependent timing of seasonal heat risk.
+- [**Who Is an Outdoor Worker?**](/projects/outdoor-workers/) — how alternative definitions of outdoor work change estimates of climate-exposed labour and heat risk.
 - [**Heat-wave criteria through uncompensable heat strain**](/projects/partitional-calorimetry/) — physiological heat-risk modelling.
 - [**Changing temporal organisation of heat events**](/projects/heat-event-timing/) — onset, duration, persistence, and recovery.
 - [**Road-network criticality and access to healthcare**](/projects/road-network-criticality/) — graph and simulation methods for infrastructure vulnerability.
