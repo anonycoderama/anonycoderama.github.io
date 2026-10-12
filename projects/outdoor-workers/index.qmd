@@ -40,7 +40,7 @@ The project therefore fits closely with my broader interest in **normatively gro
 
 ## My contribution
 
-I am the **third author** on this project. My contribution has focused on supplying and preparing the **climate-data inputs used in the heat-exposure analysis**. I am keeping the contribution statement deliberately narrow here so that the website does not imply responsibility for components of the labour-force classification or downstream welfare/health analysis that I did not lead.
+I am the **third author** on this project. My contribution has focused on supplying and preparing the **climate-data inputs used in the heat-exposure analysis**. 
 
 ## Status
 
