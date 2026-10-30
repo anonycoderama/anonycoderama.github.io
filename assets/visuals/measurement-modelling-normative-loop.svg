@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 760" role="img" aria-labelledby="svg-title svg-description">
-<title id="svg-title">Measurement and Modelling ↔ Normative Judgement</title>
-<desc id="svg-description">A data grid and an inhabited landscape face each other across a circular dialogue. Two animated rings move in opposite directions to illustrate how measurement and modelling influence normative judgement, and vice versa.</desc>
+<title id="svg-title">Measurement &amp; Modelling ↕ Normative Judgement</title>
+<desc id="svg-description">A precise data grid and a soft, flowing terrain with river and contour lines sit on either side of vertical two-way feedback arrows, with opposing orbital animations illustrating how measurement, modelling and normative judgement shape each other.</desc>
 <defs>
   <radialGradient id="ground" cx="50%" cy="47%" r="64%"><stop stop-color="#162b36"/><stop offset=".67" stop-color="#0d1b29"/><stop offset="1" stop-color="#06111b"/></radialGradient>
   <radialGradient id="teal-glow"><stop stop-color="#52ddcc" stop-opacity=".14"/><stop offset="1" stop-color="#52ddcc" stop-opacity="0"/></radialGradient>
@@ -55,24 +55,45 @@
  <g fill="#b5a9ff"><circle cx="141" cy="281" r="4"/><circle cx="204" cy="346" r="4"/><circle cx="270" cy="313" r="4"/><circle cx="300" cy="411" r="4"/></g>
 </g>
 <ellipse cx="213" cy="385" rx="125" ry="171" fill="none" stroke="#78ded7" stroke-width="1.7" opacity=".68"/>
-<!-- Natural, inhabited landscape: sunlight, ridgelines, river, trees, houses and two people. -->
+<!-- Flowing, grounded terrain: winding water, topographic folds, quiet traces of habitation. -->
 <g clip-path="url(#land-window)">
- <rect x="422" y="202" width="253" height="370" fill="url(#sky)"/>
- <circle cx="597" cy="289" r="35" fill="#ffda9e" opacity=".95"/>
- <circle cx="597" cy="289" r="52" fill="#ffe0ab" opacity=".13"/>
- <path d="M411 423Q459 350 503 371Q530 326 560 345Q606 310 688 414V569H415Z" fill="#4b6472"/>
- <path d="M412 459Q480 380 528 425Q578 364 688 450V563H412Z" fill="#547869"/>
- <path d="M410 482Q466 429 524 468Q594 414 692 486V568H409Z" fill="#3d6458"/>
- <path d="M488 465Q546 475 539 507Q532 538 612 568H498Q461 550 490 521Q512 494 488 465Z" fill="url(#river)" opacity=".94"/>
- <path d="M497 472Q537 481 531 506" fill="none" stroke="#d6efe3" stroke-width="2" opacity=".55"/>
- <!-- Trees with rounded canopies -->
- <g><path d="M465 468V427" stroke="#342f33" stroke-width="7" stroke-linecap="round"/><path d="M444 423Q444 405 459 400Q459 383 477 385Q496 386 497 406Q511 412 501 430Q488 443 469 435Q453 439 444 423" fill="#8ec19c"/></g>
- <g><path d="M633 470V427" stroke="#403838" stroke-width="6" stroke-linecap="round"/><path d="M611 421Q607 405 626 399Q628 382 647 392Q666 393 666 410Q681 423 659 433Q639 445 626 435Q617 437 611 421" fill="#9dc39c"/></g>
- <!-- A small home in the lived landscape -->
- <g><rect x="576" y="450" width="38" height="33" rx="3" fill="#dfb89a"/><path d="M571 451L596 430L620 451Z" fill="#7f4d4d"/><rect x="593" y="460" width="12" height="23" rx="2" fill="#584b4b"/><rect x="580" y="458" width="9" height="10" rx="2" fill="#edf2d5"/></g>
- <!-- People for a recognisably human, inhabited landscape -->
- <g fill="#f5d0ae"><circle cx="545" cy="468" r="6"/><circle cx="562" cy="476" r="5"/></g>
- <g stroke="#243b45" stroke-linecap="round" fill="none"><path d="M545 476V502M545 483L537 495M545 483L554 492M545 502L539 517M545 502L551 517" stroke-width="4.8"/><path d="M562 483V501M562 489L556 499M562 489L568 497M562 501L557 510M562 501L568 509" stroke-width="4"/></g>
+  <rect x="420" y="199" width="260" height="376" fill="url(#sky)"/>
+  <circle cx="598" cy="290" r="36" fill="#ffdeb0" opacity=".80"/>
+  <circle cx="598" cy="290" r="65" fill="#ffc5a2" opacity=".14"/>
+  <path d="M410 426 C458 388 473 362 513 373 C553 330 568 341 599 354 C630 356 655 391 690 416 L690 572 L410 572Z" fill="#566b78" opacity=".9"/>
+  <path d="M406 459 C456 417 479 412 516 432 C557 392 590 402 624 423 C654 426 673 449 699 466 L699 573 L406 573Z" fill="#668476"/>
+  <path d="M403 496 C455 468 485 443 524 459 C564 447 595 462 625 476 C658 471 671 475 700 497 L700 579 L403 579Z" fill="#476f68"/>
+  <path d="M408 525 C456 493 490 501 519 512 C561 496 587 508 623 526 C653 516 678 533 692 539 L692 576 L408 576Z" fill="#355d60"/>
+  <!-- River: organic counterpart to the abstract gridded traces. -->
+  <path d="M458 441 C484 458 522 448 537 471 S523 504 541 527 S578 550 618 582" stroke="#82b4c2" stroke-width="30" fill="none" stroke-linecap="round" opacity=".82"/>
+  <path d="M458 441 C484 458 522 448 537 471 S523 504 541 527 S578 550 618 582" stroke="url(#river)" stroke-width="19" fill="none" stroke-linecap="round" opacity=".9"/>
+  <path d="M461 443 C487 457 521 451 535 473 S524 504 541 527 S579 553 613 580" stroke="#d9ecdc" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".73"/>
+  <!-- Topographical contours suggest an actual place without literal scenery icons. -->
+  <g fill="none" stroke-linecap="round" stroke="#dfc49f" stroke-width="2" opacity=".58">
+    <path d="M448 417 C460 388 496 391 509 406 C530 421 549 404 552 384"/>
+    <path d="M439 438 C468 410 485 421 508 433 C523 440 547 422 567 428"/>
+    <path d="M566 375 C592 361 607 382 623 393 C637 402 660 398 680 407"/>
+    <path d="M572 407 C600 391 617 418 637 427 C659 436 678 431 694 442"/>
+    <path d="M448 501 C473 479 488 487 505 492"/>
+    <path d="M577 497 C603 481 626 490 651 499 C672 502 687 500 702 496"/>
+    <path d="M577 522 C606 503 624 522 651 527 C669 532 683 527 697 523"/>
+  </g>
+  <!-- Settlement lights connected by faint winding paths: human presence without cartoons. -->
+  <g fill="none" stroke="#f5cba7" stroke-width="2.5" stroke-linecap="round" opacity=".78">
+    <path d="M458 503 C474 496 483 471 490 455"/>
+    <path d="M574 486 C594 481 601 455 630 451"/>
+    <path d="M564 545 C583 530 603 541 621 526"/>
+  </g>
+  <g fill="#ffe4bd">
+    <circle cx="490" cy="455" r="4.8"/>
+    <circle cx="630" cy="451" r="4.5"/>
+    <circle cx="621" cy="526" r="4.2"/>
+  </g>
+  <g fill="#ffcfac" opacity=".35">
+    <circle cx="490" cy="455" r="14"/>
+    <circle cx="630" cy="451" r="14"/>
+    <circle cx="621" cy="526" r="13"/>
+  </g>
 </g>
 <ellipse cx="548" cy="385" rx="124" ry="171" fill="none" stroke="#ffc3a1" stroke-width="1.7" opacity=".72"/>
 <!-- The models/norms dialogue occupies the common middle ground. -->
@@ -80,12 +101,12 @@
 <circle cx="380" cy="380" r="139" fill="none" stroke="url(#ring-colors)" stroke-width="2.4" opacity=".9"/>
 <text class="center-label" x="380" y="316">Measurement &amp;</text>
 <text class="center-label" x="380" y="352">Modelling</text>
-<text class="center-arrow" x="380" y="407">↔</text>
+<!-- Two explicit vertical feedback directions: up and down. -->
+<g fill="none" stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M365 416V374 M354 385L365 374L376 385" stroke="#78e9dd"/>
+  <path d="M395 374V416 M384 405L395 416L406 405" stroke="#ffc39e"/>
+</g>
 <text class="center-label center-norm" x="380" y="453">Normative</text>
 <text class="center-label center-norm" x="380" y="488">Judgement</text>
-<!-- Bright, legible descriptions, independent of motion. No model/policy footer. -->
-<rect x="75" y="171" width="275" height="39" rx="18" fill="#0b202c" stroke="#3c716f" stroke-width="1.3"/>
-<text x="212" y="197" class="label" text-anchor="middle">Structured measurement</text>
-<rect x="438" y="171" width="251" height="39" rx="18" fill="#392832" stroke="#8d6b66" stroke-width="1.3"/>
-<text x="563" y="197" class="label" text-anchor="middle">Lived environments</text>
+
 </svg>
