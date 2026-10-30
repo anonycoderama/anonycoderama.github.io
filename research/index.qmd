@@ -24,7 +24,7 @@ Before a model can support a decision, the underlying risk has to be defined and
 
 This theme includes:
 
-- [**Mind the (Jensen) Gap**](/projects/jensen-gap/) — how nonlinear aggregation and thresholding can systematically change measured heat risk. **Under peer review at _Ecological Economics_.**
+- [**Mind the (Jensen) Gap**](/projects/jensen-gap/) — how nonlinear aggregation and thresholding can systematically change measured heat risk. **Under review**
 - [**Metric dependence in seasonal heat-stress timing**](/projects/wbgt-utci/) — why strongly correlated heat metrics can identify different periods as the hottest part of the year.
 - [**Changing temporal organisation of heat events across India**](/projects/heat-event-timing/) — onset, duration, persistence, and recovery periods in hourly UTCI over 1980–2024.
 - [**Heat-wave declaration criteria through uncompensable heat strain**](/projects/partitional-calorimetry/) — an ongoing comparison of temperature-based heat-wave criteria with physiologically uncompensable heat exposure.
