@@ -11,9 +11,7 @@
   <linearGradient id="grid-fill" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#173b45" stop-opacity=".75"/><stop offset="1" stop-color="#10202c" stop-opacity=".55"/></linearGradient>
   <clipPath id="land-window"><ellipse cx="548" cy="385" rx="124" ry="171"/></clipPath>
   <clipPath id="grid-window"><ellipse cx="213" cy="385" rx="125" ry="171"/></clipPath>
-  <marker id="arrow-to-world" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#ffaa7a"/></marker>
-  <marker id="arrow-to-data" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#68e4d8"/></marker>
-  <path id="cw-path" d="M380 67 A313 313 0 1 1 380 693 A313 313 0 1 1 380 67"/>
+      <path id="cw-path" d="M380 67 A313 313 0 1 1 380 693 A313 313 0 1 1 380 67"/>
   <path id="ccw-path" d="M380 98 A282 282 0 1 0 380 662 A282 282 0 1 0 380 98"/>
 </defs>
 <style>
@@ -40,8 +38,6 @@
 <!-- Opposing motion in two concentric orbits: not a single one-way process. -->
 <use href="#cw-path" class="orbit-cw"/>
 <use href="#ccw-path" class="orbit-ccw"/>
-<path d="M142 182 A312 312 0 0 0 124 546" fill="none" stroke="#74e2d7" stroke-width="4" opacity=".9" marker-end="url(#arrow-to-world)" stroke-linecap="round"/>
-<path d="M618 577 A311 311 0 0 0 638 214" fill="none" stroke="#ffb18a" stroke-width="4" opacity=".9" marker-end="url(#arrow-to-data)" stroke-linecap="round"/>
 <circle r="6" fill="#c8fff5" stroke="#50d9cf" stroke-width="2"><animateMotion dur="16s" repeatCount="indefinite"><mpath href="#cw-path"/></animateMotion></circle>
 <circle r="6" fill="#ffe1c6" stroke="#ffaa7a" stroke-width="2"><animateMotion dur="17s" repeatCount="indefinite"><mpath href="#ccw-path"/></animateMotion></circle>
 <!-- Formal quantitative structure: gridded field, cells, network and selected observations. -->
