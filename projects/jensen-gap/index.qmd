@@ -26,21 +26,27 @@ The project uses Jensen's inequality as a framework for quantifying these discre
 
 ## Method and results from the thesis defence
 
-The slides below are reproduced **unchanged** from my BS-MS thesis defence. They show the core aggregation problem and two of the principal empirical results.
+The three slides below are reproduced **unchanged** from my BS-MS thesis defence. The text beneath each slide is only a guide to what to look for.
+
+### 1. The aggregation problem
 
 <figure class="research-figure">
 <a href="/assets/figures/jensen-slide-method.png" target="_blank"><img src="/assets/figures/jensen-slide-method.png" alt="Original thesis-defence slide explaining the Jensen gap in UTCI and threshold-exceedance calculations."></a>
-<figcaption>Thesis-defence slide, reproduced unchanged. The Jensen-aware route computes UTCI or threshold exceedance at each hourly grid point before aggregation, whereas convenience aggregation averages meteorological inputs first. Because UTCI is neither globally convex nor concave over most of its domain, the direction of the resulting Jensen gap has to be determined empirically.</figcaption>
+<figcaption><strong>What to look for:</strong> the Jensen-aware route computes UTCI or threshold exceedance at every hourly grid point and aggregates afterwards, whereas the convenience-aggregation route averages meteorological inputs first and then applies the nonlinear transformation. Because UTCI is neither globally convex nor concave over most of its domain, the sign and magnitude of the gap must be established empirically.</figcaption>
 </figure>
+
+### 2. The bias is spatially structured and threshold-dependent
 
 <figure class="research-figure">
 <a href="/assets/figures/jensen-slide-results-spatial.png" target="_blank"><img src="/assets/figures/jensen-slide-results-spatial.png" alt="Original thesis-defence slide showing district-level heat-stress exceedance and spatial Jensen gaps across India."></a>
-<figcaption>Thesis-defence results slide, reproduced unchanged. District-level annual exceedance and Jensen-gap maps show that the bias is spatially clustered and threshold-contingent: the same district can be overestimated at one UTCI threshold and underestimated at another.</figcaption>
+<figcaption><strong>What to look for:</strong> the exposure maps and corresponding Jensen-gap maps show that aggregation bias is not random in space. Its direction also depends on the UTCI threshold: the same district can be overestimated at one threshold and underestimated at another.</figcaption>
 </figure>
+
+### 3. Aggregation can change which districts appear most at risk
 
 <figure class="research-figure">
 <a href="/assets/figures/jensen-slide-results-ranking.png" target="_blank"><img src="/assets/figures/jensen-slide-results-ranking.png" alt="Original thesis-defence slide showing changes in district heat-stress rankings under Jensen-biased aggregation."></a>
-<figcaption>Thesis-defence results slide, reproduced unchanged. Aggregation bias does not disappear when the analysis is reduced to ordinal rankings: district rankings can shift substantially, with especially large changes at the highest threshold.</figcaption>
+<figcaption><strong>What to look for:</strong> reducing the analysis to ordinal rankings does not remove the problem. District rankings can shift substantially under the aggregated calculation; in the defence results, the largest illustrated change occurs for Mayurbhanj at the 46 °C threshold.</figcaption>
 </figure>
 
 ## The normative choice inside aggregation
@@ -55,4 +61,4 @@ Administrative heat planning operates at aggregated scales, while heat exposure 
 
 ## Resources
 
-[**Preprint: Mind the (Jensen)Gap: Climate and Health using Gridded Data**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6501406)
+[**Preprint: Mind the (Jensen) Gap: Climate and Health using Gridded Data**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6501406)
