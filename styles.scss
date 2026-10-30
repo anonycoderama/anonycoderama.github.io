@@ -165,3 +165,33 @@ body { letter-spacing: -0.006em; }
   .figure-pair,
   .method-flow { grid-template-columns: 1fr; }
 }
+
+
+.research-figure {
+  max-width: 1120px;
+  margin: 1.6rem auto 3rem;
+}
+.research-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--vm-line);
+  border-radius: 10px;
+  background: white;
+}
+.research-figure a {
+  display: block;
+}
+.research-figure figcaption {
+  max-width: 980px;
+  margin: .7rem auto 0;
+  font-size: .9rem;
+  line-height: 1.55;
+  color: var(--vm-muted);
+}
+.research-figure-wide {
+  max-width: 1320px;
+}
+.research-figure-narrow {
+  max-width: 920px;
+}
