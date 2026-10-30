@@ -34,12 +34,12 @@ The slides below are reproduced **unchanged** from my BS-MS thesis defence. They
 </figure>
 
 <figure class="research-figure">
-<a href="/assets/figures/jensen-slide-spatial-bias.png" target="_blank"><img src="/assets/figures/jensen-slide-spatial-bias.png" alt="Original thesis-defence slide showing district-level heat-stress exceedance and spatial Jensen gaps across India."></a>
+<a href="/assets/figures/jensen-slide-results-spatial.png" target="_blank"><img src="/assets/figures/jensen-slide-results-spatial.png" alt="Original thesis-defence slide showing district-level heat-stress exceedance and spatial Jensen gaps across India."></a>
 <figcaption>Thesis-defence results slide, reproduced unchanged. District-level annual exceedance and Jensen-gap maps show that the bias is spatially clustered and threshold-contingent: the same district can be overestimated at one UTCI threshold and underestimated at another.</figcaption>
 </figure>
 
 <figure class="research-figure">
-<a href="/assets/figures/jensen-slide-rankings.png" target="_blank"><img src="/assets/figures/jensen-slide-rankings.png" alt="Original thesis-defence slide showing changes in district heat-stress rankings under Jensen-biased aggregation."></a>
+<a href="/assets/figures/jensen-slide-results-ranking.png" target="_blank"><img src="/assets/figures/jensen-slide-results-ranking.png" alt="Original thesis-defence slide showing changes in district heat-stress rankings under Jensen-biased aggregation."></a>
 <figcaption>Thesis-defence results slide, reproduced unchanged. Aggregation bias does not disappear when the analysis is reduced to ordinal rankings: district rankings can shift substantially, with especially large changes at the highest threshold.</figcaption>
 </figure>
 
