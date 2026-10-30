@@ -13,10 +13,34 @@ Is dangerous heat only becoming more intense, or is climate change also reorgani
 
 Using hourly UTCI over India from 1980–2024, the analysis tracks first and last annual exceedances, hot-season duration, heat-event frequency and length, nighttime exposure, and breaks between events.
 
-## Current findings
+At each native-resolution ERA5 grid point, hourly UTCI is converted into threshold-exceedance sequences. Metrics describing the temporal organisation of those sequences are calculated year by year, and long-run trends are tested using Mann-Kendall and autocorrelation-corrected Hamed-Rao Mann-Kendall tests.
+
+## What we did
+
+The following slide is reproduced **unchanged** from my BS-MS thesis defence.
+
+<figure class="research-figure">
+<a href="/assets/figures/heat-timing-slide-method.png" target="_blank"><img src="/assets/figures/heat-timing-slide-method.png" alt="Original thesis-defence slide describing the onset-duration-frequency heat-event framework."></a>
+<figcaption>Thesis-defence framework slide, reproduced unchanged. Rather than fitting a stationary intensity-duration-frequency relationship, the analysis asks whether the temporal structure of hourly UTCI exceedance events itself changes over 1980–2024, at fine spatial resolution.</figcaption>
+</figure>
+
+## Selected results
 
 Large parts of India show evidence of earlier starts, later ends, longer events, or shorter recovery periods, but the patterns are strongly spatially heterogeneous. North-East India, the eastern coast, and the Indo-Gangetic Plain recur across multiple indicators and thresholds.
 
-A related part of the work examines changing meteorological signatures of heat-stress exceedance using gridpoint-level logistic regression models.
+<figure class="research-figure">
+<a href="/assets/figures/heat-timing-slide-onset-end.png" target="_blank"><img src="/assets/figures/heat-timing-slide-onset-end.png" alt="Original thesis-defence slide showing trends in first and last annual UTCI threshold exceedances across India."></a>
+<figcaption>Thesis-defence results slide, reproduced unchanged. First-exceedance trends identify regions where the hot season is beginning earlier, while last-exceedance trends identify regions where it is ending later. The 38 °C threshold shows extensive earlier onset, while later last exceedances appear across substantial parts of India.</figcaption>
+</figure>
 
-Figures and a manuscript-level abstract will be added after the thesis results are distilled into the final paper structure.
+<figure class="research-figure">
+<a href="/assets/figures/heat-timing-slide-event-length-breaks.png" target="_blank"><img src="/assets/figures/heat-timing-slide-event-length-breaks.png" alt="Original thesis-defence slide showing trends in heat-event lengths and breaks between events across India."></a>
+<figcaption>Thesis-defence results slide, reproduced unchanged. Mean event lengths increase across large regions, while breaks between events shrink in several areas. This separates two dimensions of changing heat risk: persistence of individual events and the recovery time available between them.</figcaption>
+</figure>
+
+<figure class="research-figure">
+<a href="/assets/figures/heat-timing-slide-nighttime.png" target="_blank"><img src="/assets/figures/heat-timing-slide-nighttime.png" alt="Original thesis-defence slide showing trends in nighttime heat-stress exceedance and median event and break lengths."></a>
+<figcaption>Thesis-defence results slide, reproduced unchanged. Nighttime heat-stress exceedance fractions increase along both coasts at lower UTCI thresholds, potentially reducing opportunities for physiological recovery.</figcaption>
+</figure>
+
+A related part of the thesis examines changing meteorological signatures of heat-stress exceedance using gridpoint-level logistic regression models.
