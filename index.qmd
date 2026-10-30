@@ -23,7 +23,7 @@ toc: false
     </div>
   </div>
   <div class="hero-visual">
-    <img src="assets/visuals/grid-to-curve.svg" alt="A teal measurement grid feeds angular models that transition into flowing violet and orange lines, representing interpretation and policy." width="760" height="520" decoding="async">
+    <img src="assets/visuals/measurement-modelling-normative-loop.svg" alt="A circular two-way relationship between measurement and modelling and normative judgement: a gridded data model on one side and an inhabited landscape with hills, a river, trees, homes, and people on the other. Two animated rings move in opposite directions." width="760" height="760" decoding="async">
   </div>
 </div>
 </section>
