@@ -5,7 +5,8 @@ page-layout: full
 toc: false
 ---
 
-::: {.hero}
+```{=html}
+<section class="hero" aria-label="Research introduction">
 <div class="hero-shell">
   <div class="hero-copy">
     <div class="hero-kicker">Climate Risk · Systems Modelling · Quantitative Policy</div>
@@ -25,7 +26,8 @@ toc: false
     <img src="assets/visuals/grid-to-curve.svg" alt="A teal measurement grid feeds angular models that transition into flowing violet and orange lines, representing interpretation and policy." width="760" height="520" decoding="async">
   </div>
 </div>
-:::
+</section>
+```
 
 ## Research directions
 
