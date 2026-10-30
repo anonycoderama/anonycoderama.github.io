@@ -17,30 +17,36 @@ At each native-resolution ERA5 grid point, hourly UTCI is converted into thresho
 
 ## What we did
 
-The following slide is reproduced **unchanged** from my BS-MS thesis defence.
+The slides below are reproduced **unchanged** from my BS-MS thesis defence. I have only added short notes beneath them to make the results easier to read on a webpage.
 
 <figure class="research-figure">
 <a href="/assets/figures/odf-slide-method.png" target="_blank"><img src="/assets/figures/odf-slide-method.png" alt="Original thesis-defence slide describing the onset-duration-frequency heat-event framework."></a>
-<figcaption>Thesis-defence framework slide, reproduced unchanged. Rather than fitting a stationary intensity-duration-frequency relationship, the analysis asks whether the temporal structure of hourly UTCI exceedance events itself changes over 1980–2024, at fine spatial resolution.</figcaption>
+<figcaption><strong>Framework:</strong> for each grid point, the hourly UTCI series is converted into a binary exceedance sequence at a chosen threshold. The analysis then asks whether properties of those sequences—onset, end, event length, frequency, nighttime exposure, and recovery breaks—show long-run trends. Trend detection uses Mann-Kendall and autocorrelation-corrected Hamed-Rao Mann-Kendall tests.</figcaption>
 </figure>
 
 ## Selected results
 
-Large parts of India show evidence of earlier starts, later ends, longer events, or shorter recovery periods, but the patterns are strongly spatially heterogeneous. North-East India, the eastern coast, and the Indo-Gangetic Plain recur across multiple indicators and thresholds.
+### 1. Heat seasons can start earlier and end later
 
 <figure class="research-figure">
 <a href="/assets/figures/odf-slide-onset-end.png" target="_blank"><img src="/assets/figures/odf-slide-onset-end.png" alt="Original thesis-defence slide showing trends in first and last annual UTCI threshold exceedances across India."></a>
-<figcaption>Thesis-defence results slide, reproduced unchanged. First-exceedance trends identify regions where the hot season is beginning earlier, while last-exceedance trends identify regions where it is ending later. The 38 °C threshold shows extensive earlier onset, while later last exceedances appear across substantial parts of India.</figcaption>
+<figcaption><strong>What to look for:</strong> the first-exceedance maps identify places where the heat season is moving earlier; the last-exceedance maps identify places where it is moving later. At the 38 °C threshold, the defence results show widespread earlier onset across North-East India, the coasts, the Indo-Gangetic Plain and other regions, alongside persistent later last exceedances.</figcaption>
 </figure>
+
+### 2. Events can persist longer while recovery breaks shrink
 
 <figure class="research-figure">
 <a href="/assets/figures/odf-slide-duration-breaks.png" target="_blank"><img src="/assets/figures/odf-slide-duration-breaks.png" alt="Original thesis-defence slide showing trends in heat-event lengths and breaks between events across India."></a>
-<figcaption>Thesis-defence results slide, reproduced unchanged. Mean event lengths increase across large regions, while breaks between events shrink in several areas. This separates two dimensions of changing heat risk: persistence of individual events and the recovery time available between them.</figcaption>
+<figcaption><strong>What to look for:</strong> mean event lengths increase across large regions, while median event length is more stable in many places—consistent with a distribution increasingly shaped by long events. In North-East India both mean and median event length increase. Mean and median breaks between events shrink in North-East India and parts of Tamil Nadu and Andhra Pradesh.</figcaption>
 </figure>
 
+### 3. Nighttime exposure is also changing
+
 <figure class="research-figure">
-<a href="/assets/figures/odf-slide-nighttime.png" target="_blank"><img src="/assets/figures/odf-slide-nighttime.png" alt="Original thesis-defence slide showing trends in nighttime heat-stress exceedance and median event and break lengths."></a>
-<figcaption>Thesis-defence results slide, reproduced unchanged. Nighttime heat-stress exceedance fractions increase along both coasts at lower UTCI thresholds, potentially reducing opportunities for physiological recovery.</figcaption>
+<a href="/assets/figures/odf-slide-nighttime.png" target="_blank"><img src="/assets/figures/odf-slide-nighttime.png" alt="Original thesis-defence slide showing trends in nighttime heat-stress exceedance across India."></a>
+<figcaption><strong>What to look for:</strong> the nighttime heat-stress-exceedance fraction increases along both coasts in the defence results, raising the possibility of less physiological recovery overnight.</figcaption>
 </figure>
+
+Taken together, these results suggest that climate change is not only shifting the level of heat stress; it is also reorganising its **timing, persistence, clustering, and recovery structure**. The patterns are spatially heterogeneous, and the analysis is descriptive trend detection rather than causal attribution.
 
 A related part of the thesis examines changing meteorological signatures of heat-stress exceedance using gridpoint-level logistic regression models.
