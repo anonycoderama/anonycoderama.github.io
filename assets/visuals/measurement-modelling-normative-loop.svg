@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 760" role="img" aria-labelledby="svg-title svg-description">
 <title id="svg-title">Measurement &amp; Modelling ↕ Normative Judgement</title>
-<desc id="svg-description">A precise quantitative grid contrasts with flowing river valleys and an abstract woven gathering of human figures, representing cultural practices and shared judgement. Vertical two-way arrows and counter-rotating circular animations show the reciprocal influence of modelling and norms.</desc>
+<desc id="svg-description">A precise quantitative grid contrasts with a fluid river landscape and three softly drawn human figures representing shared judgement. Vertical two-way arrows and counter-rotating circular animations show the reciprocal influence of modelling and norms.</desc>
 <defs>
   <radialGradient id="ground" cx="50%" cy="47%" r="64%"><stop stop-color="#162b36"/><stop offset=".67" stop-color="#0d1b29"/><stop offset="1" stop-color="#06111b"/></radialGradient>
   <radialGradient id="teal-glow"><stop stop-color="#52ddcc" stop-opacity=".14"/><stop offset="1" stop-color="#52ddcc" stop-opacity="0"/></radialGradient>
@@ -67,47 +67,10 @@
   <!-- River: organic counterpart to the abstract gridded traces. -->
   <path d="M458 441 C484 458 522 448 537 471 S523 504 541 527 S578 550 618 582" stroke="#82b4c2" stroke-width="30" fill="none" stroke-linecap="round" opacity=".82"/>
   <path d="M458 441 C484 458 522 448 537 471 S523 504 541 527 S578 550 618 582" stroke="url(#river)" stroke-width="19" fill="none" stroke-linecap="round" opacity=".9"/>
-  <path d="M461 443 C487 457 521 451 535 473 S524 504 541 527 S579 553 613 580" stroke="#d9ecdc" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".73"/>
-  <!-- Topographical contours suggest an actual place without literal scenery icons. -->
-  <g fill="none" stroke-linecap="round" stroke="#dfc49f" stroke-width="2" opacity=".58">
-    <path d="M448 417 C460 388 496 391 509 406 C530 421 549 404 552 384"/>
-    <path d="M439 438 C468 410 485 421 508 433 C523 440 547 422 567 428"/>
-    <path d="M566 375 C592 361 607 382 623 393 C637 402 660 398 680 407"/>
-    <path d="M572 407 C600 391 617 418 637 427 C659 436 678 431 694 442"/>
-    <path d="M448 501 C473 479 488 487 505 492"/>
-    <path d="M577 497 C603 481 626 490 651 499 C672 502 687 500 702 496"/>
-    <path d="M577 522 C606 503 624 522 651 527 C669 532 683 527 697 523"/>
-  </g>
-  <!-- Settlement lights connected by faint winding paths: human presence without cartoons. -->
-  <g fill="none" stroke="#f5cba7" stroke-width="2.5" stroke-linecap="round" opacity=".78">
-    <path d="M458 503 C474 496 483 471 490 455"/>
-    <path d="M574 486 C594 481 601 455 630 451"/>
-    <path d="M564 545 C583 530 603 541 621 526"/>
-  </g>
-  <g fill="#ffe4bd">
-    <circle cx="490" cy="455" r="4.8"/>
-    <circle cx="630" cy="451" r="4.5"/>
-    <circle cx="621" cy="526" r="4.2"/>
-  </g>
-  <g fill="#ffcfac" opacity=".35">
-    <circle cx="490" cy="455" r="14"/>
-    <circle cx="630" cy="451" r="14"/>
-    <circle cx="621" cy="526" r="13"/>
-  </g>
   <!-- Abstract communal tapestry: three human presences woven together.
-       Curving links evoke shared cultural practices, not a specific ethnicity or symbol.
-       The underlying terrain, contours and water remain visible through the motif. -->
+       Soft, abstract human forms evoke community without a literal cultural symbol.
+       The hills and river remain as an uncluttered natural backdrop. -->
   <g opacity=".96" stroke-linecap="round" stroke-linejoin="round">
-    <!-- A loose woven surround, as if a textile thread follows the landscape. -->
-    <path d="M555 432 C562 408 589 406 607 420 S648 428 654 448
-             C658 463 636 481 614 468 S570 467 555 449"
-          stroke="#ffe2bc" stroke-opacity=".29" stroke-width="13" fill="none"/>
-    <path d="M554 436 C577 418 588 439 608 451 S642 464 653 439"
-          stroke="#e4a7ac" stroke-width="3.8" fill="none" opacity=".92"/>
-    <path d="M556 455 C577 473 591 451 607 435 S634 418 653 450"
-          stroke="#ffcc9e" stroke-width="4.2" fill="none" opacity=".92"/>
-    <path d="M570 463 C591 448 607 470 635 462"
-          stroke="#b8d2bf" stroke-width="2" fill="none" opacity=".88"/>
     <!-- Head-like circles and soft, continuous bodies: people without pictograms. -->
     <circle cx="572" cy="421" r="6.2" fill="#ffe8c9" stroke="#764f53" stroke-width="1.1"/>
     <circle cx="604" cy="415" r="6.8" fill="#ffd3ae" stroke="#764f53" stroke-width="1.1"/>
