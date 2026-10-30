@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 760" role="img" aria-labelledby="svg-title svg-description">
 <title id="svg-title">Measurement &amp; Modelling ↕ Normative Judgement</title>
-<desc id="svg-description">A precise data grid and a soft, flowing terrain with river and contour lines sit on either side of vertical two-way feedback arrows, with opposing orbital animations illustrating how measurement, modelling and normative judgement shape each other.</desc>
+<desc id="svg-description">A precise quantitative grid contrasts with flowing river valleys and an abstract woven gathering of human figures, representing cultural practices and shared judgement. Vertical two-way arrows and counter-rotating circular animations show the reciprocal influence of modelling and norms.</desc>
 <defs>
   <radialGradient id="ground" cx="50%" cy="47%" r="64%"><stop stop-color="#162b36"/><stop offset=".67" stop-color="#0d1b29"/><stop offset="1" stop-color="#06111b"/></radialGradient>
   <radialGradient id="teal-glow"><stop stop-color="#52ddcc" stop-opacity=".14"/><stop offset="1" stop-color="#52ddcc" stop-opacity="0"/></radialGradient>
@@ -93,6 +93,34 @@
     <circle cx="490" cy="455" r="14"/>
     <circle cx="630" cy="451" r="14"/>
     <circle cx="621" cy="526" r="13"/>
+  </g>
+  <!-- Abstract communal tapestry: three human presences woven together.
+       Curving links evoke shared cultural practices, not a specific ethnicity or symbol.
+       The underlying terrain, contours and water remain visible through the motif. -->
+  <g opacity=".96" stroke-linecap="round" stroke-linejoin="round">
+    <!-- A loose woven surround, as if a textile thread follows the landscape. -->
+    <path d="M555 432 C562 408 589 406 607 420 S648 428 654 448
+             C658 463 636 481 614 468 S570 467 555 449"
+          stroke="#ffe2bc" stroke-opacity=".29" stroke-width="13" fill="none"/>
+    <path d="M554 436 C577 418 588 439 608 451 S642 464 653 439"
+          stroke="#e4a7ac" stroke-width="3.8" fill="none" opacity=".92"/>
+    <path d="M556 455 C577 473 591 451 607 435 S634 418 653 450"
+          stroke="#ffcc9e" stroke-width="4.2" fill="none" opacity=".92"/>
+    <path d="M570 463 C591 448 607 470 635 462"
+          stroke="#b8d2bf" stroke-width="2" fill="none" opacity=".88"/>
+    <!-- Head-like circles and soft, continuous bodies: people without pictograms. -->
+    <circle cx="572" cy="421" r="6.2" fill="#ffe8c9" stroke="#764f53" stroke-width="1.1"/>
+    <circle cx="604" cy="415" r="6.8" fill="#ffd3ae" stroke="#764f53" stroke-width="1.1"/>
+    <circle cx="634" cy="425" r="6.1" fill="#fbd4be" stroke="#764f53" stroke-width="1.1"/>
+    <path d="M568 433 Q554 451 569 464 Q581 469 588 455"
+          fill="none" stroke="#ffe1bb" stroke-width="5"/>
+    <path d="M602 429 Q590 447 602 460 Q613 471 621 451"
+          fill="none" stroke="#ffd1b2" stroke-width="5.6"/>
+    <path d="M637 436 Q649 451 640 463 Q633 470 625 458"
+          fill="none" stroke="#ead4ce" stroke-width="4.8"/>
+    <!-- Dots at the overlaps suggest decisions emerging from collective exchange. -->
+    <circle cx="590" cy="446" r="3.2" fill="#ffedc8"/>
+    <circle cx="621" cy="447" r="3.2" fill="#ffedc8"/>
   </g>
 </g>
 <ellipse cx="548" cy="385" rx="124" ry="171" fill="none" stroke="#ffc3a1" stroke-width="1.7" opacity=".72"/>
