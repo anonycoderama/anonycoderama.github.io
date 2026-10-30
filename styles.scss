@@ -149,7 +149,7 @@ footer.footer { border-top:1px solid var(--vm-line);color:var(--vm-muted); }
   box-shadow: inset 0 0 0 1px rgba(255,255,255,.025),0 16px 48px rgba(0,0,0,.26);
   clip-path: polygon(0 0,calc(100% - 18px) 0,100% 18px,100% 100%,18px 100%,0 calc(100% - 18px));
 }
-.hero-visual svg {
+.hero-visual img {
   display: block;
   width: 100%;
   height: auto;
@@ -159,30 +159,6 @@ footer.footer { border-top:1px solid var(--vm-line);color:var(--vm-muted); }
   0%,100% { filter: hue-rotate(0deg) saturate(100%); }
   36% { filter: hue-rotate(9deg) saturate(108%); }
   72% { filter: hue-rotate(-10deg) saturate(112%); }
-}
-.visual-panel { fill: url(#panelGradient); stroke: rgba(92,220,210,.17); stroke-width: 1.2; }
-.grid-line { stroke: rgba(120,189,198,.18); stroke-width: 1; }
-.grid-node { fill: rgba(89,226,213,.5); }
-.angular-path { fill:none; stroke:url(#logicGradient); stroke-width:3.2; stroke-linejoin:round; stroke-linecap:round; }
-.curve-path { fill:none; stroke:url(#flowGradient); stroke-width:4; stroke-linecap:round; }
-.flow-halo { fill:none; stroke:rgba(255,148,100,.08); stroke-width:26; stroke-linecap:round; }
-.transition-path {
-  fill: none;
-  stroke: url(#logicHumanGradient);
-  stroke-width: 2;
-  stroke-dasharray: 5 8;
-  opacity: .76;
-  animation: trace-between 12s linear infinite;
-}
-@keyframes trace-between { to { stroke-dashoffset: -130; } }
-.visual-node { stroke:none; }
-.visual-node.logic { fill:#5de3d7; }
-.visual-node.shift { fill:#8b7dff; }
-.visual-node.human { fill:#ff9464; }
-.data-label {
-  fill:#93aab3;
-  font:500 13px "IBM Plex Mono",monospace;
-  letter-spacing:.075em;
 }
 .theme-card { background:linear-gradient(150deg,#0c1822,#10212c); }
 .theme-card:nth-child(2)::before { background:var(--vm-shift); }
@@ -202,5 +178,5 @@ footer.footer { border-top:1px solid var(--vm-line);color:var(--vm-muted); }
   .hero-visual { max-width:720px; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .hero-visual svg,.transition-path { animation:none !important; }
+  .hero-visual img { animation:none !important; }
 }
