@@ -11,21 +11,48 @@ When heat-action planning targets the hottest part of the year, do commonly used
 
 ## Approach
 
-Using hourly ERA5 reanalysis for India from 1980–2024, we compare the contiguous 90-day period maximizing four metrics: 2 m air temperature, Wet-Bulb Globe Temperature (WBGT), Universal Thermal Climate Index (UTCI), and Extended Heat Index (EHI).
+Using hourly ERA5 reanalysis for India from 1980–2024, we compute, for every grid cell and year, the contiguous 90-day period maximizing four metrics: 2 m air temperature, Wet-Bulb Globe Temperature (WBGT), Universal Thermal Climate Index (UTCI), and Extended Heat Index (EHI), and compare their start dates.
 
 ## Headline results
 
-- The metrics are strongly correlated hour-to-hour, with Spearman correlations around 0.84–0.97.
-- The 90-day moving average of the metrics peak at differing times of the year; with differences sometimes exceeding 100 days between yearly peaks of different indices.
-- They nevertheless peak in sequence: temperature first, followed by UTCI, EHI, and WBGT.
-- Over the Indo-Gangetic Plain, the median difference between temperature- and WBGT-defined heat windows is about seven weeks.
-- In the hottest decile of hours, temperature and WBGT can lose essentially all rank association.
-- The result suggests that choosing a heat-stress metric can also amount to choosing which part of the season is treated as most important for policy.
+- The metrics track one another closely hour-to-hour, with Spearman correlations of about **0.84–0.97**.
+- They nevertheless peak in sequence: **temperature → UTCI → EHI → WBGT**.
+- Over the Indo-Gangetic Plain, WBGT- and temperature-defined 90-day windows differ by about **seven weeks in the median**.
+- At roughly a fifth of grid cells, those windows fail to overlap at all in at least one year.
+- Among the hottest decile of hours—the observations that determine the seasonal maximum—temperature and WBGT lose essentially all rank association in 2024 (**Kendall's τ = −0.06**).
+- The share of years in which a metric selects the humid season rises through the metric sequence, reaching **0.47 for WBGT**.
+
+## High correlation does not guarantee agreement in extremes
+
+The central result is a scale paradox: the metrics can look highly interchangeable over the full hourly distribution while disagreeing strongly in the upper tail that actually determines the hottest sustained period.
+
+### 1. The metrics are highly correlated at representative grid points
+
+<figure class="research-figure research-figure-wide">
+<a href="/assets/figures/wbgt-utci-spearman-representative.png" target="_blank"><img src="/assets/figures/wbgt-utci-spearman-representative.png" alt="Six representative pair plots showing strong Spearman correlations among air temperature, EHI, UTCI and WBGT."></a>
+<figcaption>Representative 2024 grid points at the 50th percentile of the corresponding pairwise block-maxima timing differences. Pair plots show strong Spearman association among air temperature, EHI, UTCI and WBGT. High bulk correlation therefore does not, by itself, imply that the metrics identify the same seasonal extreme.</figcaption>
+</figure>
+
+### 2. The hottest tail is much more discordant
+
+<figure class="research-figure research-figure-narrow">
+<a href="/assets/figures/wbgt-utci-top10-discordance.png" target="_blank"><img src="/assets/figures/wbgt-utci-top10-discordance.png" alt="Maps of pairwise discordant-pair fractions for full-hourly data and for top-decile hours anchored on UTCI or WBGT."></a>
+<figcaption>Discordant-pair fraction for the full hourly record compared with the hottest 10% of hours, using UTCI or WBGT as the anchor. Pairwise ordering is much more stable over the full distribution than in the extreme tail. The observations that decide the seasonal maximum are therefore precisely where apparently similar heat metrics can disagree most strongly.</figcaption>
+</figure>
+
+### 3. Tail disagreement is enough to move the 90-day maximum by weeks
+
+<figure class="research-figure research-figure-narrow">
+<a href="/assets/figures/wbgt-utci-blockmaxima-timing.webp" target="_blank"><img src="/assets/figures/wbgt-utci-blockmaxima-timing.webp" alt="Maps of pairwise differences in the timing of maximizing 90-day heat-stress windows across India, including 2024 differences, long-run medians and Sen-slope trends."></a>
+<figcaption>Pairwise timing differences in the maximizing 90-day windows. The left column shows 2024 differences, the middle column the long-run median differences, and the right column trends in those differences. The disagreement concentrated in the extreme tail is large enough to generate spatially coherent shifts of many tens of days in which 90-day period is classified as the hottest.</figcaption>
+</figure>
+
+Together, the three figures show why an overall correlation coefficient is not sufficient for deciding whether heat-stress metrics are interchangeable for seasonal planning. **The relevant question is whether they preserve ordering in the extreme part of the distribution that selects the maximum window.**
 
 ## Metric choice as a normative choice
 
-Different heat metrics encode different physical and physiological emphases: temperature, humidity, radiation, wind, or combinations of them. A warning calendar therefore does not simply *measure* a pre-existing hottest season; it operationalises a definition of heat stress and thereby determines whose exposures receive policy attention. A political question!
+Different heat metrics encode different physical and physiological emphases: temperature, humidity, radiation, wind, or combinations of them. A warning calendar therefore does not simply *measure* a pre-existing hottest season; it operationalises a definition of heat stress and thereby determines whose exposures receive policy attention.
 
 This is one example of the modelling approach I want to develop more broadly: identify where technical definitions carry normative consequences, then quantify how much those choices change the conclusion.
 
-Figures, code, and manuscript links will be added as the paper is finalized.
+Figures, code, and manuscript links will continue to be added as the paper is finalized.
