@@ -25,17 +25,16 @@ $border-color: #203543;
   --vm-panel: #0b1620;
 }
 html { scroll-behavior: smooth; }
+/* Uniform canvas across every Quarto page; pattern only belongs inside figures. */
+html, body {
+  background-color: var(--vm-bg);
+  background-image: none;
+}
 body {
   letter-spacing: .002em;
   color: var(--vm-ink);
   background-color: var(--vm-bg);
-  background-image:
-    radial-gradient(ellipse at 12% 10%,rgba(89,226,213,.075),transparent 30%),
-    radial-gradient(ellipse at 88% 18%,rgba(139,125,255,.07),transparent 25%),
-    linear-gradient(rgba(140,200,215,.025) 1px,transparent 1px),
-    linear-gradient(90deg,rgba(140,200,215,.025) 1px,transparent 1px),
-    linear-gradient(180deg,#040a10 0%,#071119 58%,#040a10 100%);
-  background-size: auto,auto,42px 42px,42px 42px,auto;
+  background-image: none;
 }
 h1,h2,h3,h4,.navbar-brand { font-family: "Nunito Sans",sans-serif; letter-spacing: -.025em; }
 h2 { color: #f1f5f5; }
