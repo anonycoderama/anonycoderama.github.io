@@ -1,6 +1,6 @@
 /*-- scss:defaults --*/
 $font-family-sans-serif: "DM Sans", sans-serif;
-$headings-font-family: "Outfit", sans-serif;
+$headings-font-family: "Nunito Sans", sans-serif;
 $body-bg: #040a10;
 $body-color: #e7f0f3;
 $link-color: #59e2d5;
@@ -9,7 +9,7 @@ $navbar-fg: #e7f0f3;
 $border-color: #203543;
 
 /*-- scss:rules --*/
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Outfit:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Nunito+Sans:wght@400;500;600;700;800&display=swap');
 
 :root {
   color-scheme: dark;
@@ -37,7 +37,7 @@ body {
     linear-gradient(180deg,#040a10 0%,#071119 58%,#040a10 100%);
   background-size: auto,auto,42px 42px,42px 42px,auto;
 }
-h1,h2,h3,h4,.navbar-brand { font-family: "Outfit",sans-serif; letter-spacing: -.025em; }
+h1,h2,h3,h4,.navbar-brand { font-family: "Nunito Sans",sans-serif; letter-spacing: -.025em; }
 h2 { color: #f1f5f5; }
 a { text-underline-offset: .22em; }
 a:hover { color: #a3fff1; }
@@ -188,9 +188,9 @@ body { font-family:"DM Sans",sans-serif; }
   font-weight:600;
   letter-spacing:.008em;
 }
-.navbar-brand { font-family:"Outfit",sans-serif; font-weight:600; letter-spacing:-.035em; }
-.hero h1 { font-family:"Outfit",sans-serif; letter-spacing:-.05em; }
-.theme-card h3, .result-card h3 { font-family:"Outfit",sans-serif; font-weight:600; }
+.navbar-brand { font-family:"Nunito Sans",sans-serif; font-weight:600; letter-spacing:-.035em; }
+.hero h1 { font-family:"Nunito Sans",sans-serif; letter-spacing:-.05em; }
+.theme-card h3, .result-card h3 { font-family:"Nunito Sans",sans-serif; font-weight:600; }
 .hero-links a {
   clip-path:none;
   border-radius:12px;
@@ -200,3 +200,22 @@ body { font-family:"DM Sans",sans-serif; }
 /* Suppress duplicate Quarto page title; the custom hero owns the homepage heading. */
 body:has(.hero) #title-block-header,
 body:has(.hero) header.quarto-title-block { display:none !important; }
+
+/* Third pass: reciprocal model/norm relationship, naturally rounded type. */
+h1,h2,h3,h4,.navbar-brand { font-family:"Nunito Sans",sans-serif; letter-spacing:-.032em; }
+.hero h1 { font-weight:750; letter-spacing:-.045em; }
+.hero-deck { color:#d3e2e6; }
+.hero-kicker { color:#8cf5e7; }
+.hero-visual {
+  max-width: 580px;
+  width: 100%;
+  margin-inline: auto;
+  padding: .4rem;
+  border-radius: 50%;
+  background:radial-gradient(circle at 50% 46%,rgba(15,31,42,.92),rgba(5,14,23,.85) 75%,transparent 100%);
+  border-color:rgba(100,226,214,.15);
+  box-shadow:0 13px 60px rgba(0,0,0,.2);
+}
+.hero-visual img { border-radius:50%; }
+.hero::after { content:none !important; display:none !important; }
+/* Technical labels remain monospaced, body typography soft. */
