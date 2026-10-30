@@ -11,7 +11,7 @@ When heat-action planning targets the hottest part of the year, do commonly used
 
 ## Approach
 
-Using hourly ERA5 reanalysis for India from 1980–2024, we compute, for every grid cell and year, the contiguous 90-day period maximizing four metrics: 2 m air temperature, Wet-Bulb Globe Temperature (WBGT), Universal Thermal Climate Index (UTCI), and Extended Heat Index (EHI), and compare their start dates.
+Using hourly ERA5 reanalysis for India from 1980–2024, we compute, for every grid cell and year, the contiguous 90-day period maximizing four metrics: 2 m air temperature, Wet-Bulb Globe Temperature (WBGT), Universal Thermal Climate Index (UTCI), and Extended Heat Index (EHI), and compare their timing.
 
 ## Headline results
 
@@ -24,28 +24,32 @@ Using hourly ERA5 reanalysis for India from 1980–2024, we compute, for every g
 
 ## High correlation does not guarantee agreement in extremes
 
-The central result is a scale paradox: the metrics can look highly interchangeable over the full hourly distribution while disagreeing strongly in the upper tail that actually determines the hottest sustained period.
+The central result is a scale paradox: the metrics look highly interchangeable over the bulk of the hourly distribution, yet the observations that determine the seasonal extreme are precisely where their ordering becomes much less stable.
 
 ### 1. The metrics are highly correlated at representative grid points
 
 <figure class="research-figure research-figure-wide">
-<a href="/assets/figures/wbgt-utci-hourly-correlation.png" target="_blank"><img src="/assets/figures/wbgt-utci-hourly-correlation.png" alt="Six representative pair plots showing strong Spearman correlations among air temperature, EHI, UTCI and WBGT."></a>
-<figcaption><strong>Strong hourly correlation coexists with divergent extremes.</strong> For each metric pair, the panel uses the 2024 hourly values at the grid cell holding the median long-run start-date difference for that pair. The upper triangles show rank correlations, the diagonals show each metric's distribution, and the lower triangles show scatter with LOWESS fits. The central clouds are tight and near-linear, while the hot tails curve and fan. These raw-hourly correlations include the seasonal and diurnal cycles shared by the metrics, so they should not be read as evidence that the metrics are interchangeable in the extreme tail.</figcaption>
+<a href="/assets/figures/wbgt-utci-spearman-representative.png" target="_blank"><img src="/assets/figures/wbgt-utci-spearman-representative.png" alt="Six representative pair plots showing strong pairwise rank correlations among air temperature, EHI, UTCI and WBGT."></a>
+<figcaption><strong>Strong hourly correlation coexists with divergent extremes.</strong> Each panel uses a representative grid cell at the median long-run timing difference for that metric pair. The upper triangles report rank correlations, the diagonals show 2024 distributions, and the lower triangles show pairwise scatter with LOWESS fits. The central clouds are tight and close to linear, but the hot tails bend and fan apart. The full hourly archive gives pairwise Spearman correlations of roughly 0.84–0.97.</figcaption>
 </figure>
 
-### 2. The hottest tail is much more discordant
+### 2. Agreement deteriorates in the hottest 10% of hours
 
 <figure class="research-figure research-figure-narrow">
-<a href="/assets/figures/wbgt-utci-top-decile-discordance.png" target="_blank"><img src="/assets/figures/wbgt-utci-top-decile-discordance.png" alt="Maps of pairwise discordant-pair fractions for full-hourly data and for top-decile hours anchored on UTCI or WBGT."></a>
-<figcaption><strong>Discordance rises sharply in the hottest tail.</strong> The left column shows the discordant-pair fraction over the full hourly record; the middle and right columns restrict attention to the hottest 10% of hours, anchored on UTCI and WBGT respectively. Pairwise ordering is far more stable across the full distribution than among the observations that decide the seasonal extreme. In the 2024 archive, temperature and WBGT lose essentially all rank association in this hottest decile (Kendall's τ = −0.06).</figcaption>
+<a href="/assets/figures/wbgt-utci-top10-discordance.png" target="_blank"><img src="/assets/figures/wbgt-utci-top10-discordance.png" alt="Maps of pairwise discordant-pair fractions for full-hourly data and for top-decile heat-stress hours."></a>
+<figcaption><strong>The extreme tail is much more discordant.</strong> The left column shows pairwise discordant-pair fractions over the full hourly record; the top-decile columns show the same idea after restricting attention to the hottest part of the distribution. Discordance rises sharply across much of India. For temperature versus WBGT, the hottest-decile rank association is essentially absent in 2024 (Kendall's τ = −0.06).</figcaption>
 </figure>
 
-### 3. Tail disagreement is enough to move the 90-day maximum by weeks
+This is the key bridge between the first and third figures: a high correlation calculated over all hours is dominated by the large central part of the distribution. But the 90-day block maximum is selected by the **extreme tail**, where the metrics disagree much more.
+
+### 3. That tail disagreement moves the 90-day maximum by weeks
 
 <figure class="research-figure research-figure-narrow">
-<a href="/assets/figures/wbgt-utci-blockmax-timing.png" target="_blank"><img src="/assets/figures/wbgt-utci-blockmax-timing.png" alt="Maps of pairwise differences in the timing of maximizing 90-day heat-stress windows across India, including 2024 differences, long-run medians and Sen-slope trends."></a>
-<figcaption><strong>Pairwise disagreement in the timing of the hottest quarter is large and signed.</strong> Rows show the six metric pairs (U = UTCI, W = WBGT, T = air temperature, H = Extended Heat Index), with differences taken in the order the letters appear, so red/positive means the first metric peaks later. Columns show the 2024 difference in 90-day block-maximum end date, the long-run median difference, and the Sen's-slope trend over 1980–2024. The first two columns saturate at ±40 days, so still-larger differences—including non-overlapping windows with |Δ| > 90 days—appear at the colour-scale limits. This is the key consequence: modest-looking differences in the ordering of the hottest hours are sufficient to move the selected 90-day maximum by many weeks.</figcaption>
+<a href="/assets/figures/wbgt-utci-blockmaxima-timing.webp" target="_blank"><img src="/assets/figures/wbgt-utci-blockmaxima-timing.webp" alt="Maps of pairwise differences in the timing of maximizing 90-day heat-stress windows across India, including 2024 differences, long-run medians and Sen-slope trends."></a>
+<figcaption><strong>Pairwise disagreement in the timing of the hottest quarter is large and signed.</strong> Rows are the six metric pairs (U = UTCI, W = WBGT, T = air temperature, H = Extended Heat Index). Columns show the timing difference in 2024, the long-run median difference, and the Sen's-slope trend over 1980–2024. The sign follows the row label order: positive/red means the first metric peaks later. The 2024 and median colour scales saturate at ±40 days, so still larger differences—including non-overlap beyond 90 days—appear at the scale limits.</figcaption>
 </figure>
+
+The disagreement in the extreme tail is therefore not a small statistical curiosity. It is large enough to move the selected 90-day hottest period by **many tens of days** across broad regions. Over the Indo-Gangetic Plain, the median WBGT-versus-temperature difference is about seven weeks; in some grid-cell years the two 90-day windows do not overlap at all.
 
 Together, the three figures show why an overall correlation coefficient is not sufficient for deciding whether heat-stress metrics are interchangeable for seasonal planning. **The relevant question is whether they preserve ordering in the extreme part of the distribution that selects the maximum window.**
 
