@@ -7,56 +7,69 @@ year: 2026
 
 ## Research question
 
-When heat-action planning targets the hottest part of the year, do commonly used heat-stress metrics agree on **when** that period occurs?
+When heat-action planning targets the hottest sustained part of the year, do commonly used heat-stress metrics agree on **when** that period occurs?
 
 ## Approach
 
-Using hourly ERA5 reanalysis for India from 1980–2024, we compute, for every grid cell and year, the contiguous 90-day period maximizing four metrics: 2 m air temperature, Wet-Bulb Globe Temperature (WBGT), Universal Thermal Climate Index (UTCI), and Extended Heat Index (EHI), and compare their timing.
+Using hourly ERA5 reanalysis for India from 1980–2024, we compute, for every grid cell and year, the contiguous 90-day period that maximizes each of four metrics:
 
-## Headline results
+- **T** = 2 m air temperature
+- **U** = Universal Thermal Climate Index (UTCI)
+- **W** = Wet-Bulb Globe Temperature (WBGT)
+- **H** = Extended Heat Index (EHI)
 
-- The metrics track one another closely hour-to-hour, with Spearman correlations of about **0.84–0.97**.
-- They nevertheless peak in sequence: **temperature → UTCI → EHI → WBGT**.
-- Over the Indo-Gangetic Plain, WBGT- and temperature-defined 90-day windows differ by about **seven weeks in the median**.
-- At roughly a fifth of grid cells, those windows fail to overlap at all in at least one year.
-- Among the hottest decile of hours—the observations that determine the seasonal maximum—temperature and WBGT lose essentially all rank association in 2024 (**Kendall's τ = −0.06**).
-- The share of years in which a metric selects the humid season rises through the metric sequence, reaching **0.47 for WBGT**.
+We then compare the timing of those maximizing 90-day windows across metric pairs.
 
-## High correlation does not guarantee agreement in extremes
+A pair label such as **UT**, **WT**, or **UH** is ordered: the first letter is compared with the second. In the block-maxima timing maps, a positive difference means the first metric's maximizing 90-day window occurs later than the second metric's window.
 
-The central result is a scale paradox: the metrics look highly interchangeable over the bulk of the hourly distribution, yet the observations that determine the seasonal extreme are precisely where their ordering becomes much less stable.
-
-### 1. The metrics are highly correlated at representative grid points
-
-<figure class="research-figure research-figure-wide">
-<a href="/assets/figures/wbgt-utci-spearman-representative.png" target="_blank"><img src="/assets/figures/wbgt-utci-spearman-representative.png" alt="Six representative pair plots showing strong pairwise rank correlations among air temperature, EHI, UTCI and WBGT."></a>
-<figcaption><strong>Strong hourly correlation coexists with divergent extremes.</strong> Each panel uses a representative grid cell at the median long-run timing difference for that metric pair. The upper triangles report rank correlations, the diagonals show 2024 distributions, and the lower triangles show pairwise scatter with LOWESS fits. The central clouds are tight and close to linear, but the hot tails bend and fan apart. The full hourly archive gives pairwise Spearman correlations of roughly 0.84–0.97.</figcaption>
-</figure>
-
-### 2. Agreement deteriorates in the hottest 10% of hours
-
-<figure class="research-figure research-figure-narrow">
-<a href="/assets/figures/wbgt-utci-top10-discordance.png" target="_blank"><img src="/assets/figures/wbgt-utci-top10-discordance.png" alt="Maps of pairwise discordant-pair fractions for full-hourly data and for top-decile heat-stress hours."></a>
-<figcaption><strong>The extreme tail is much more discordant.</strong> The left column shows pairwise discordant-pair fractions over the full hourly record; the top-decile columns show the same idea after restricting attention to the hottest part of the distribution. Discordance rises sharply across much of India. For temperature versus WBGT, the hottest-decile rank association is essentially absent in 2024 (Kendall's τ = −0.06).</figcaption>
-</figure>
-
-This is the key bridge between the first and third figures: a high correlation calculated over all hours is dominated by the large central part of the distribution. But the 90-day block maximum is selected by the **extreme tail**, where the metrics disagree much more.
-
-### 3. That tail disagreement moves the 90-day maximum by weeks
+## The same year can have different "hottest quarters"
 
 <figure class="research-figure research-figure-narrow">
 <a href="/assets/figures/wbgt-utci-blockmaxima-timing.webp" target="_blank"><img src="/assets/figures/wbgt-utci-blockmaxima-timing.webp" alt="Maps of pairwise differences in the timing of maximizing 90-day heat-stress windows across India, including 2024 differences, long-run medians and Sen-slope trends."></a>
-<figcaption><strong>Pairwise disagreement in the timing of the hottest quarter is large and signed.</strong> Rows are the six metric pairs (U = UTCI, W = WBGT, T = air temperature, H = Extended Heat Index). Columns show the timing difference in 2024, the long-run median difference, and the Sen's-slope trend over 1980–2024. The sign follows the row label order: positive/red means the first metric peaks later. The 2024 and median colour scales saturate at ±40 days, so still larger differences—including non-overlap beyond 90 days—appear at the scale limits.</figcaption>
+<figcaption><strong>Pairwise disagreement in the timing of the hottest quarter is large and signed.</strong> Rows are the six metric pairs, with U = UTCI, W = WBGT, T = air temperature, and H = Extended Heat Index. The difference follows the order of the row label: for example, WT means WBGT minus air-temperature timing, so positive/red values mean the WBGT-defined hottest quarter occurs later. Columns show the difference in 2024, the long-run median difference, and the Sen's-slope trend over 1980–2024. The 2024 and median colour scales saturate at ±40 days, so larger differences appear at the scale limits.</figcaption>
 </figure>
 
-The disagreement in the extreme tail is therefore not a small statistical curiosity. It is large enough to move the selected 90-day hottest period by **many tens of days** across broad regions. Over the Indo-Gangetic Plain, the median WBGT-versus-temperature difference is about seven weeks; in some grid-cell years the two 90-day windows do not overlap at all.
+The timing differences are not small perturbations around a common answer. Broad regions show differences of several weeks between metrics. The contrast between **WT** and **UW** is especially clear: WBGT tends to select a later 90-day maximum than air temperature, while UTCI tends to select an earlier maximum than WBGT over much of India.
 
-Together, the three figures show why an overall correlation coefficient is not sufficient for deciding whether heat-stress metrics are interchangeable for seasonal planning. **The relevant question is whether they preserve ordering in the extreme part of the distribution that selects the maximum window.**
+Over the Indo-Gangetic Plain, the median WBGT-versus-temperature timing difference is about seven weeks. In some grid-cell years, the two maximizing 90-day windows do not overlap at all.
 
-## Metric choice as a normative choice
+## Strong hourly correlation does not imply the same maximizing window
 
-Different heat metrics encode different physical and physiological emphases: temperature, humidity, radiation, wind, or combinations of them. A warning calendar therefore does not simply *measure* a pre-existing hottest season; it operationalises a definition of heat stress and thereby determines whose exposures receive policy attention.
+At first glance, this timing disagreement is surprising because the metrics are strongly associated at hourly resolution.
 
-This is one example of the modelling approach I want to develop more broadly: identify where technical definitions carry normative consequences, then quantify how much those choices change the conclusion.
+<figure class="research-figure research-figure-wide">
+<a href="/assets/figures/wbgt-utci-spearman-representative.png" target="_blank"><img src="/assets/figures/wbgt-utci-spearman-representative.png" alt="Six representative pair plots showing Spearman rank correlations and pairwise relationships among air temperature, EHI, UTCI and WBGT."></a>
+<figcaption><strong>Strong hourly correlation can coexist with different seasonal maxima.</strong> Each of the six panels corresponds to one metric-pair label: HT, UH, UW, UT, WT, or WH. For each pair, the representative grid cell is chosen at the <strong>50th percentile of that pair's 2024 block-maxima timing-difference distribution</strong>. The pair label therefore describes how the representative location was selected; once that grid cell is chosen, the panel shows the relationships among <strong>all four metrics</strong> using hourly values from 2024. Upper-triangle values are Spearman rank correlations, diagonals show the 2024 distribution of each metric, and lower triangles show pairwise scatter with LOWESS fits.</figcaption>
+</figure>
+
+The pair labels in this figure can be read as follows:
+
+- **HT**: representative of the 50th-percentile EHI-minus-temperature block-maxima timing difference
+- **UH**: representative of the 50th-percentile UTCI-minus-EHI timing difference
+- **UW**: representative of the 50th-percentile UTCI-minus-WBGT timing difference
+- **UT**: representative of the 50th-percentile UTCI-minus-temperature timing difference
+- **WT**: representative of the 50th-percentile WBGT-minus-temperature timing difference
+- **WH**: representative of the 50th-percentile WBGT-minus-EHI timing difference
+
+This distinction matters. **Spearman's ρ asks whether two metrics preserve a similar hourly rank ordering; the block-maxima analysis asks which contiguous 90-day window maximizes each metric.** Those are different questions. Two metrics can be strongly monotonic over the full year while differing enough in the shape, seasonal weighting, or upper part of their distributions to move the maximizing 90-day window by weeks.
+
+## Disagreement becomes more visible in the hottest part of the distribution
+
+<figure class="research-figure research-figure-narrow">
+<a href="/assets/figures/wbgt-utci-top10-discordance.png" target="_blank"><img src="/assets/figures/wbgt-utci-top10-discordance.png" alt="Maps comparing pairwise discordant-pair fractions for the full hourly record and for top-decile heat-stress anchors."></a>
+<figcaption><strong>Pairwise ordering is less stable in the hottest part of the distribution.</strong> The left column shows discordant-pair fractions over the full hourly record. The other columns restrict the comparison to observations anchored in the top 10th percentile of UTCI or WBGT. Across the metric pairs, discordance is substantially larger in these hotter subsets than over the full hourly record.</figcaption>
+</figure>
+
+This helps explain why a high all-hours correlation is not sufficient evidence that two heat metrics are interchangeable for seasonal planning. Most hourly observations contribute to the correlation coefficient, while the location of the maximizing 90-day window depends disproportionately on how the metrics behave during the hotter part of the year.
+
+## Metric choice is also a normative choice
+
+Different heat metrics encode different physical and physiological emphases. Air temperature, humidity, radiation, and wind do not enter each metric in the same way, and the metrics are not simply rescaled versions of one another.
+
+For policy, that means choosing a heat metric does more than select a measurement convention. It can change **which weeks are designated as the period of greatest heat stress**, and therefore when warning calendars, worker protections, health-system preparedness, or other interventions are activated.
+
+The normative issue is not that one metric is universally "correct" and the others are "wrong." It is that a technical choice about how heat stress is defined can change which exposures become most visible to policy. A defensible heat-action framework should therefore make that choice explicit and connect it to the population, activity, and physiological risk that the policy is intended to protect.
+
+This project is part of a broader research approach I want to develop: identify where apparently technical definitions carry normative consequences, then quantify how much those choices change the resulting policy-relevant conclusion.
 
 Figures, code, and manuscript links will continue to be added as the paper is finalized.
