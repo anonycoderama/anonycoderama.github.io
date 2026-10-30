@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 760" role="img" aria-labelledby="svg-title svg-description">
+<title id="svg-title">Measurement and Modelling ↔ Normative Judgement</title>
+<desc id="svg-description">A data grid and an inhabited landscape face each other across a circular dialogue. Two animated rings move in opposite directions to illustrate how measurement and modelling influence normative judgement, and vice versa.</desc>
+<defs>
+  <radialGradient id="ground" cx="50%" cy="47%" r="64%"><stop stop-color="#162b36"/><stop offset=".67" stop-color="#0d1b29"/><stop offset="1" stop-color="#06111b"/></radialGradient>
+  <radialGradient id="teal-glow"><stop stop-color="#52ddcc" stop-opacity=".14"/><stop offset="1" stop-color="#52ddcc" stop-opacity="0"/></radialGradient>
+  <radialGradient id="warm-glow"><stop stop-color="#ffad79" stop-opacity=".19"/><stop offset="1" stop-color="#ffad79" stop-opacity="0"/></radialGradient>
+  <linearGradient id="ring-colors" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#64e1d3"/><stop offset=".47" stop-color="#aaa2ff"/><stop offset="1" stop-color="#ffad79"/></linearGradient>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#354b63"/><stop offset=".65" stop-color="#9b7c88"/><stop offset="1" stop-color="#efad79"/></linearGradient>
+  <linearGradient id="river" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c0d0c3"/><stop offset=".55" stop-color="#609eb0"/><stop offset="1" stop-color="#3f7183"/></linearGradient>
+  <linearGradient id="grid-fill" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#173b45" stop-opacity=".75"/><stop offset="1" stop-color="#10202c" stop-opacity=".55"/></linearGradient>
+  <clipPath id="land-window"><ellipse cx="548" cy="385" rx="124" ry="171"/></clipPath>
+  <clipPath id="grid-window"><ellipse cx="213" cy="385" rx="125" ry="171"/></clipPath>
+  <marker id="arrow-to-world" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#ffaa7a"/></marker>
+  <marker id="arrow-to-data" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#68e4d8"/></marker>
+  <path id="cw-path" d="M380 67 A313 313 0 1 1 380 693 A313 313 0 1 1 380 67"/>
+  <path id="ccw-path" d="M380 98 A282 282 0 1 0 380 662 A282 282 0 1 0 380 98"/>
+</defs>
+<style>
+  .diagram-font {font-family:"Nunito Sans","Trebuchet MS",Arial,sans-serif}
+  .label {font-family:"Nunito Sans","Trebuchet MS",Arial,sans-serif;fill:#eff8f8;font-weight:750;font-size:18px;letter-spacing:.2px}
+  .mini {font-family:"Nunito Sans","Trebuchet MS",Arial,sans-serif;fill:#cadce0;font-weight:700;font-size:17px;letter-spacing:.1px}
+  .orbit-cw {fill:none;stroke:#62dace;stroke-width:2.5;stroke-dasharray:5 15;stroke-opacity:.76;animation:move-cw 11s linear infinite}
+  .orbit-ccw {fill:none;stroke:#ffae88;stroke-width:2.5;stroke-dasharray:5 15;stroke-opacity:.64;animation:move-ccw 11s linear infinite}
+  .center-label {font-family:"Nunito Sans","Trebuchet MS",Arial,sans-serif;fill:#f4fafa;font-weight:750;font-size:29px;text-anchor:middle;paint-order:stroke;stroke:#122430;stroke-width:.6px}
+  .center-norm {fill:#ffc5a8}
+  .center-arrow {font-family:"Trebuchet MS",Arial,sans-serif;fill:#b7eee7;font-weight:700;font-size:36px;text-anchor:middle}
+  @keyframes move-cw {to {stroke-dashoffset:-240}}
+  @keyframes move-ccw {to {stroke-dashoffset:240}}
+  @keyframes brighten {0%,100%{opacity:.8}50%{opacity:1}}
+  .glow-cycle {animation:brighten 6s ease-in-out infinite}
+  @media (prefers-reduced-motion:reduce){.orbit-cw,.orbit-ccw,.glow-cycle{animation:none}animateMotion{display:none}}
+</style>
+<!-- Transparent exterior; the circular motif sits naturally against the dark website. -->
+<circle cx="380" cy="380" r="350" fill="url(#ground)" stroke="#294652" stroke-width="1.4"/>
+<circle cx="216" cy="379" r="213" fill="url(#teal-glow)"/>
+<circle cx="548" cy="379" r="213" fill="url(#warm-glow)"/>
+<circle cx="380" cy="380" r="313" fill="none" stroke="url(#ring-colors)" stroke-width="1.5" opacity=".46"/>
+<circle cx="380" cy="380" r="281" fill="none" stroke="#a39ec8" stroke-width="1.2" opacity=".25"/>
+<!-- Opposing motion in two concentric orbits: not a single one-way process. -->
+<use href="#cw-path" class="orbit-cw"/>
+<use href="#ccw-path" class="orbit-ccw"/>
+<path d="M142 182 A312 312 0 0 0 124 546" fill="none" stroke="#74e2d7" stroke-width="4" opacity=".9" marker-end="url(#arrow-to-world)" stroke-linecap="round"/>
+<path d="M618 577 A311 311 0 0 0 638 214" fill="none" stroke="#ffb18a" stroke-width="4" opacity=".9" marker-end="url(#arrow-to-data)" stroke-linecap="round"/>
+<circle r="6" fill="#c8fff5" stroke="#50d9cf" stroke-width="2"><animateMotion dur="16s" repeatCount="indefinite"><mpath href="#cw-path"/></animateMotion></circle>
+<circle r="6" fill="#ffe1c6" stroke="#ffaa7a" stroke-width="2"><animateMotion dur="17s" repeatCount="indefinite"><mpath href="#ccw-path"/></animateMotion></circle>
+<!-- Formal quantitative structure: gridded field, cells, network and selected observations. -->
+<g clip-path="url(#grid-window)">
+ <rect x="78" y="205" width="269" height="355" fill="url(#grid-fill)"/>
+ <path d="M108 220V552 M140 220V552 M172 220V552 M204 220V552 M236 220V552 M268 220V552 M300 220V552 M332 220V552 M81 248H347 M81 280H347 M81 312H347 M81 344H347 M81 376H347 M81 408H347 M81 440H347 M81 472H347 M81 504H347 M81 536H347" stroke="#5edacb" stroke-width="1.05" stroke-opacity=".36"/>
+ <g fill="#5fe0d6" opacity=".34"><rect x="141" y="249" width="30" height="30"/><rect x="205" y="313" width="30" height="30"/><rect x="173" y="377" width="30" height="30"/><rect x="237" y="441" width="30" height="30"/><rect x="109" y="409" width="30" height="30"/></g>
+ <path d="M108 445L172 381L204 415L236 338L300 307" stroke="#a3fff2" stroke-width="3.2" stroke-linejoin="round" fill="none"/>
+ <path d="M141 281L204 346L270 313L300 411" stroke="#b6a9ff" stroke-opacity=".75" stroke-width="2.2" fill="none"/>
+ <g fill="#dcfffa"><circle cx="108" cy="445" r="5"/><circle cx="172" cy="381" r="5"/><circle cx="204" cy="415" r="5"/><circle cx="236" cy="338" r="5"/><circle cx="300" cy="307" r="5"/></g>
+ <g fill="#b5a9ff"><circle cx="141" cy="281" r="4"/><circle cx="204" cy="346" r="4"/><circle cx="270" cy="313" r="4"/><circle cx="300" cy="411" r="4"/></g>
+</g>
+<ellipse cx="213" cy="385" rx="125" ry="171" fill="none" stroke="#78ded7" stroke-width="1.7" opacity=".68"/>
+<!-- Natural, inhabited landscape: sunlight, ridgelines, river, trees, houses and two people. -->
+<g clip-path="url(#land-window)">
+ <rect x="422" y="202" width="253" height="370" fill="url(#sky)"/>
+ <circle cx="597" cy="289" r="35" fill="#ffda9e" opacity=".95"/>
+ <circle cx="597" cy="289" r="52" fill="#ffe0ab" opacity=".13"/>
+ <path d="M411 423Q459 350 503 371Q530 326 560 345Q606 310 688 414V569H415Z" fill="#4b6472"/>
+ <path d="M412 459Q480 380 528 425Q578 364 688 450V563H412Z" fill="#547869"/>
+ <path d="M410 482Q466 429 524 468Q594 414 692 486V568H409Z" fill="#3d6458"/>
+ <path d="M488 465Q546 475 539 507Q532 538 612 568H498Q461 550 490 521Q512 494 488 465Z" fill="url(#river)" opacity=".94"/>
+ <path d="M497 472Q537 481 531 506" fill="none" stroke="#d6efe3" stroke-width="2" opacity=".55"/>
+ <!-- Trees with rounded canopies -->
+ <g><path d="M465 468V427" stroke="#342f33" stroke-width="7" stroke-linecap="round"/><path d="M444 423Q444 405 459 400Q459 383 477 385Q496 386 497 406Q511 412 501 430Q488 443 469 435Q453 439 444 423" fill="#8ec19c"/></g>
+ <g><path d="M633 470V427" stroke="#403838" stroke-width="6" stroke-linecap="round"/><path d="M611 421Q607 405 626 399Q628 382 647 392Q666 393 666 410Q681 423 659 433Q639 445 626 435Q617 437 611 421" fill="#9dc39c"/></g>
+ <!-- A small home in the lived landscape -->
+ <g><rect x="576" y="450" width="38" height="33" rx="3" fill="#dfb89a"/><path d="M571 451L596 430L620 451Z" fill="#7f4d4d"/><rect x="593" y="460" width="12" height="23" rx="2" fill="#584b4b"/><rect x="580" y="458" width="9" height="10" rx="2" fill="#edf2d5"/></g>
+ <!-- People for a recognisably human, inhabited landscape -->
+ <g fill="#f5d0ae"><circle cx="545" cy="468" r="6"/><circle cx="562" cy="476" r="5"/></g>
+ <g stroke="#243b45" stroke-linecap="round" fill="none"><path d="M545 476V502M545 483L537 495M545 483L554 492M545 502L539 517M545 502L551 517" stroke-width="4.8"/><path d="M562 483V501M562 489L556 499M562 489L568 497M562 501L557 510M562 501L568 509" stroke-width="4"/></g>
+</g>
+<ellipse cx="548" cy="385" rx="124" ry="171" fill="none" stroke="#ffc3a1" stroke-width="1.7" opacity=".72"/>
+<!-- The models/norms dialogue occupies the common middle ground. -->
+<circle cx="380" cy="380" r="148" fill="#0a1924" fill-opacity=".97" stroke="#425f68" stroke-width="2"/>
+<circle cx="380" cy="380" r="139" fill="none" stroke="url(#ring-colors)" stroke-width="2.4" opacity=".9"/>
+<text class="center-label" x="380" y="316">Measurement &amp;</text>
+<text class="center-label" x="380" y="352">Modelling</text>
+<text class="center-arrow" x="380" y="407">↔</text>
+<text class="center-label center-norm" x="380" y="453">Normative</text>
+<text class="center-label center-norm" x="380" y="488">Judgement</text>
+<!-- Bright, legible descriptions, independent of motion. No model/policy footer. -->
+<rect x="75" y="171" width="275" height="39" rx="18" fill="#0b202c" stroke="#3c716f" stroke-width="1.3"/>
+<text x="212" y="197" class="label" text-anchor="middle">Structured measurement</text>
+<rect x="438" y="171" width="251" height="39" rx="18" fill="#392832" stroke="#8d6b66" stroke-width="1.3"/>
+<text x="563" y="197" class="label" text-anchor="middle">Lived environments</text>
+</svg>
