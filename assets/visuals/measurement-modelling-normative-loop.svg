@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 760" role="img" aria-labelledby="svg-title svg-description">
 <title id="svg-title">Measurement &amp; Modelling ↕ Normative Judgement</title>
-<desc id="svg-description">A precise quantitative grid contrasts with a fluid river landscape and three softly drawn human figures representing shared judgement. Vertical two-way arrows and counter-rotating circular animations show the reciprocal influence of modelling and norms.</desc>
+<desc id="svg-description">A precise quantitative grid contrasts with a fluid river landscape, three softly drawn human figures spaced apart, and a small shared cultural vessel representing collective judgement. Vertical two-way arrows and counter-rotating circular animations show the reciprocal influence of modelling and norms.</desc>
 <defs>
   <radialGradient id="ground" cx="50%" cy="47%" r="64%"><stop stop-color="#162b36"/><stop offset=".67" stop-color="#0d1b29"/><stop offset="1" stop-color="#06111b"/></radialGradient>
   <radialGradient id="teal-glow"><stop stop-color="#52ddcc" stop-opacity=".14"/><stop offset="1" stop-color="#52ddcc" stop-opacity="0"/></radialGradient>
@@ -63,23 +63,36 @@
   <!-- River: organic counterpart to the abstract gridded traces. -->
   <path d="M458 441 C484 458 522 448 537 471 S523 504 541 527 S578 550 618 582" stroke="#82b4c2" stroke-width="30" fill="none" stroke-linecap="round" opacity=".82"/>
   <path d="M458 441 C484 458 522 448 537 471 S523 504 541 527 S578 550 618 582" stroke="url(#river)" stroke-width="19" fill="none" stroke-linecap="round" opacity=".9"/>
-  <!-- Abstract communal tapestry: three human presences woven together.
-       Soft, abstract human forms evoke community without a literal cultural symbol.
-       The hills and river remain as an uncluttered natural backdrop. -->
-  <g opacity=".96" stroke-linecap="round" stroke-linejoin="round">
-    <!-- Head-like circles and soft, continuous bodies: people without pictograms. -->
-    <circle cx="572" cy="421" r="6.2" fill="#ffe8c9" stroke="#764f53" stroke-width="1.1"/>
-    <circle cx="604" cy="415" r="6.8" fill="#ffd3ae" stroke="#764f53" stroke-width="1.1"/>
-    <circle cx="634" cy="425" r="6.1" fill="#fbd4be" stroke="#764f53" stroke-width="1.1"/>
-    <path d="M568 433 Q554 451 569 464 Q581 469 588 455"
-          fill="none" stroke="#ffe1bb" stroke-width="5"/>
-    <path d="M602 429 Q590 447 602 460 Q613 471 621 451"
-          fill="none" stroke="#ffd1b2" stroke-width="5.6"/>
-    <path d="M637 436 Q649 451 640 463 Q633 470 625 458"
-          fill="none" stroke="#ead4ce" stroke-width="4.8"/>
-    <!-- Dots at the overlaps suggest decisions emerging from collective exchange. -->
-    <circle cx="590" cy="446" r="3.2" fill="#ffedc8"/>
-    <circle cx="621" cy="447" r="3.2" fill="#ffedc8"/>
+  <!-- Three smaller, more widely spaced human figures share a crafted vessel.
+       The landscape and river remain visible behind them. -->
+  <g opacity=".97" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Abstract human figures: distinct but connected by a shared cultural practice. -->
+    <circle cx="552" cy="420" r="4.8" fill="#ffe8c9" stroke="#764f53" stroke-width="1"/>
+    <circle cx="607" cy="414" r="5.1" fill="#ffd3ae" stroke="#764f53" stroke-width="1"/>
+    <circle cx="654" cy="426" r="4.8" fill="#fbd4be" stroke="#764f53" stroke-width="1"/>
+
+    <path d="M550 430 Q541 442 551 457 Q560 464 566 449"
+          fill="none" stroke="#ffe1bb" stroke-width="4.1"/>
+    <path d="M605 425 Q596 440 607 456 Q616 465 622 448"
+          fill="none" stroke="#ffd1b2" stroke-width="4.4"/>
+    <path d="M653 436 Q664 447 656 460 Q649 466 643 453"
+          fill="none" stroke="#ead4ce" stroke-width="4.1"/>
+
+    <!-- Small gestures direct attention toward the common object. -->
+    <path d="M564 447 Q571 451 576 457" fill="none"
+          stroke="#ffe3c0" stroke-width="2.1" opacity=".9"/>
+    <path d="M601 445 Q593 451 589 457" fill="none"
+          stroke="#f9cfb1" stroke-width="2.1" opacity=".9"/>
+
+    <!-- A handmade communal vessel, placed between the left and middle figures. -->
+    <g opacity=".97">
+      <path d="M571 462 Q575 474 583 476 Q591 474 595 462 Z"
+            fill="#b77d63" stroke="#f3c69f" stroke-width="1"/>
+      <ellipse cx="583" cy="462" rx="12" ry="3.7"
+               fill="#e9c59e" stroke="#ffe0bc" stroke-width="1"/>
+      <path d="M576 467 Q583 464 590 467 M579 470 L583 473 L587 470"
+            fill="none" stroke="#7d4a44" stroke-width="1.1" opacity=".85"/>
+    </g>
   </g>
 </g>
 <ellipse cx="548" cy="385" rx="124" ry="171" fill="none" stroke="#ffc3a1" stroke-width="1.7" opacity=".72"/>
