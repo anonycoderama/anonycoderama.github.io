@@ -1,6 +1,6 @@
 /*-- scss:defaults --*/
-$font-family-sans-serif: "IBM Plex Sans", sans-serif;
-$headings-font-family: "Oxanium", sans-serif;
+$font-family-sans-serif: "DM Sans", sans-serif;
+$headings-font-family: "Outfit", sans-serif;
 $body-bg: #040a10;
 $body-color: #e7f0f3;
 $link-color: #59e2d5;
@@ -9,7 +9,7 @@ $navbar-fg: #e7f0f3;
 $border-color: #203543;
 
 /*-- scss:rules --*/
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&family=Oxanium:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Outfit:wght@400;500;600;700&display=swap');
 
 :root {
   color-scheme: dark;
@@ -37,13 +37,13 @@ body {
     linear-gradient(180deg,#040a10 0%,#071119 58%,#040a10 100%);
   background-size: auto,auto,42px 42px,42px 42px,auto;
 }
-h1,h2,h3,h4,.navbar-brand { font-family: "Oxanium",sans-serif; letter-spacing: -.025em; }
+h1,h2,h3,h4,.navbar-brand { font-family: "Outfit",sans-serif; letter-spacing: -.025em; }
 h2 { color: #f1f5f5; }
 a { text-underline-offset: .22em; }
 a:hover { color: #a3fff1; }
 p,li { line-height: 1.7; }
 code,.theme-label,.hero-kicker,.result-number,.method-step strong,
-.navbar .nav-link,.hero-links a,.quarto-title-meta,.figure-caption {
+ .quarto-title-meta,.figure-caption {
   font-family: "IBM Plex Mono",monospace;
 }
 code { color: #9dece5; }
@@ -69,7 +69,7 @@ pre,div.sourceCode { background: #101d29 !important; border: 1px solid var(--vm-
 .hero-kicker { font-size: .72rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--vm-accent); }
 .hero h1 {
   font-size: clamp(3.6rem,8.4vw,7.4rem);
-  line-height: .96; margin: .65rem 0 1.5rem; font-weight: 700;
+  line-height: 1.02; margin: .65rem 0 1.5rem; font-weight: 600;
   background: linear-gradient(105deg,#f6fbfc 0%,#dff4f2 45%,#74dfd2 77%,#ffb086 100%);
   color: transparent; background-clip:text; -webkit-background-clip:text;
 }
@@ -180,3 +180,23 @@ footer.footer { border-top:1px solid var(--vm-line);color:var(--vm-muted); }
 @media (prefers-reduced-motion: reduce) {
   .hero-visual img { animation:none !important; }
 }
+
+/* Softer, more human typography while retaining the analytical geometry. */
+body { font-family:"DM Sans",sans-serif; }
+.navbar .nav-link, .hero-links a {
+  font-family:"DM Sans",sans-serif;
+  font-weight:600;
+  letter-spacing:.008em;
+}
+.navbar-brand { font-family:"Outfit",sans-serif; font-weight:600; letter-spacing:-.035em; }
+.hero h1 { font-family:"Outfit",sans-serif; letter-spacing:-.05em; }
+.theme-card h3, .result-card h3 { font-family:"Outfit",sans-serif; font-weight:600; }
+.hero-links a {
+  clip-path:none;
+  border-radius:12px;
+}
+.hero-visual { border-radius:16px; clip-path:none; }
+.hero-visual img { border-radius:9px; }
+/* Suppress duplicate Quarto page title; the custom hero owns the homepage heading. */
+body:has(.hero) #title-block-header,
+body:has(.hero) header.quarto-title-block { display:none !important; }
